@@ -1,0 +1,397 @@
+meta:
+  direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
+  language: en              # text language, the value is HTML lang attribute value, default is "en"
+
+basic:
+  name: Nicholas Bovee                      # name
+  title: Software Engineer        # job title 
+  avatar:
+    show: false                       # show or hide avatar
+    path: /images/profile.png        # file path or link to your avatar
+
+contact:
+  location: Cherry Hill, New Jersey    # location, text or markdown link syntax
+  email:       # email address
+  phone:    # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: # site link without schema, like example.com, will automatically prepend "https://"
+
+  gender:                   # gender or pronoun
+  birthday:                 # birthday
+  nationality:              # nationality
+  visa:                     # passport visa
+  drivinglicense:           # driving licence
+
+  # ! Do not paste the link directly.
+  # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
+
+  # programming
+  github:                   nbovee
+  gitlab:                   # https://gitlab.com/<username>
+  bitbucket:                # https://bitbucket.com/<username>
+  git:                      # selfhost git site link without schema "https://"
+  leetcode:                 # https://leetcode.com/<username>
+  codeforces:               # https://codeforces.com/profile/<username>
+  codewars:                 # https://www.codewars.com/users/<username>
+  topcoder:                 # https://profiles.topcoder.com/<username>
+  huggingface:              # https://huggingface.co/<username>
+  codepen:                  # https://codepen.io/<username>
+  tryhackme:                # https://tryhackme.com/p/<username>
+
+  # research
+  googlescholar:            # https://scholar.google.com/citations?user=<username>
+  researchgate:             # https://www.researchgate.net/profile/<username>
+  orcid:                    # https://orcid.org/<id>
+  figshare:                 # https://figshare.com/authors/<name/id>
+  kaggle:                   # https://www.kaggle.com/<username>
+
+  # writing
+  medium:                   # https://medium.com/@<username>
+  wordpress:                # https://<username>.wordpress.com
+  blogger:                  # https://<username>.blogspot.com
+  devto:                    # https://dev.to/<username>
+
+  # creativity
+  figma:                    # https://www.figma.com/@<username>
+  behance:                  # https://www.behance.net/<username>
+  dribbble:                 # https://dribbble.com/<username>
+  artstation:               # https://www.artstation.com/<username>
+  pixiv:                    # https://www.pixiv.net/users/<id>
+  pinterest:                # https://www.pinterest.com/<username>
+  producthunt:              # https://www.producthunt.com/@<username>
+
+  # cv
+  linkedin:                 nicholas-bovee
+  indeed:                   # https://my.indeed.com/p/<id>
+  xing:                     # https://www.xing.com/profile/<username>
+  fiverr:                   # https://www.fiverr.com/<username>
+  freelancer:               # https://www.freelancer.com/u/<username>
+
+  # chat
+  wechat:                   # wechat id, text or markdown link syntax
+  whatsapp:                 # https://wa.me/<number>
+  telegram:                 # https://t.me/<username>
+  messenger:                # https://m.me/<username>
+  line:                     # https://line.me/R/ti/p/@<lineid>
+  viber:                    # https://vb.me/<username>
+  threema:                  # https://threema.id/<userid>
+  signal:                   # signal username, text or markdown link syntax
+  wire:                     # wire username, text or markdown link syntax
+
+  # social
+  stackoverflow:            # https://stackoverflow.com/users/<id>
+  stackexchange:            # https://stackexchange.com/users/<id>
+  quora:                    # https://www.quora.com/profile/<username>
+  zhihu:                    # https://www.zhihu.com/people/<username>
+  goodreads:                # https://www.goodreads.com/user/show/<username>
+  strava:                   # https://www.strava.com/athletes/<id>
+  wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
+  twitter:                  # https://twitter.com/<username>
+  x:                        # https://x.com/<username>
+  mastodon:                 # text, the format must be like "username@yourserver.com"
+  threads:                  # https://www.threads.net/@<username>
+  vk:                       # https://vk.com/<username>
+  weibo:                    # weibo username, text or markdown link syntax
+  instagram:                # https://instagram.com/<username>
+  unsplash:                 # https://unsplash.com/@<username>
+  _500px:                   # https://500px.com/p/<username>
+  youtube:                  # https://www.youtube.com/@<username>
+  tiktok:                   # https://www.tiktok.com/@<username>
+  snapchat:                 # https://www.snapchat.com/add/<username>
+  twitch:                   # https://www.twitch.tv/<username>
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    asdasdasd
+experience:
+  show: true
+  order: 3
+  title: Experience
+  description: |
+    Make sure to emphasize software related experience from each role when possible
+  items:
+    - company: Rowan University College of Science
+      link: 
+      tags: Part-time, Research
+      date: 2020 - Current
+      role: Machine Learning Engineer
+      location: Glassboro, NJ
+      description: |
+        * Software Architect for Rowan Autonomous Car Research, Engineering Training & Resources Server
+        * Grant funded research into feasibility & accuracy of split computation Deep Neural Network models.
+        * Development of an open source python package tracr (0.2beta) for zero‑deployment operation of machine learning test suites.
+        * tracr can at runtime select and split any Pytorch models without custom subclassing.
+        * Optimization strategies for low power edge device model operation.
+        * Create ROS1&2 firmware for a Jetson TX2 mobile edge computing robot.
+        * Containerization of robot firmware to minimize coupling to hardware specific packages.
+    - company: Rowan University College of Engineering
+      link: 
+      tags: Full-time
+      date: 2020 - Current
+      role: Engineering Specialist II
+      location: Glassboro, NJ
+      description: |
+        * Specify & install state of the art equipment to support engineering research & education.
+        * Consult on & develop custom equipment for research & undergraduate operations.
+        * Facilitate undergraduate education in the college of engineering’s unique first‑ & second‑year engineering clinics.
+        * Create education projects that illustrate modern rapid prototyping, project management, & development cycles to students.
+        * Design & Development of multiple enterprise resource planning web‑apps with **400** active users.
+        * Fullstack architecture of multi‑container service integration based on Django, managing contributions from five developer team.
+        * Containerize development environment to ensure code consistency from junior developers.
+        * Develop Continuous Integration and Deployment processes for automated build, testing, and deployment.
+        * Optimize CI/CD processes, reducing build time by **60%**. Redirect freed resources to further CI stages.
+        * Current apps feature Kanban & standard inventory management, ticketing, safety training & test administration.
+        * Reduced print request ticket errors by **76%** with integrated validation on submitted files.
+    - company: Rowan University College of Engineering
+      link: 
+      tags: Full-time
+      date: 2018 - 2020
+      role: Engineering Specialist III
+      location: Glassboro, NJ
+      description: |
+        * Specify & install state of the art equipment to support engineering research & education.
+        * Consult on & develop custom equipment for research & undergraduate operations.
+        * Facilitate undergraduate education in the college of engineering's unique first- & second-year engineering clinics.
+        * Create education projects that illustrate modern rapid prototyping, project management, & development cycles to students.
+        * Software Architect for Rowan Autonomous Car Research, Engineering Training & Resources Server
+    - company: Ernie Green Industries
+      link: 
+      tags: Full-time
+      date: 2015 - 2017
+      role: Automation Engineer
+      location: Rochester, NY
+      description: |
+        * Design & programming of high ROI vision inspection quality equipment, some generating savings of **$43k** over nine months.
+        * Automation design of difficult secondary processes, optimization of robotic procedures to increase operational revenue.
+        * Commission of new equipment for onsite manufacturing and other EGI locations domestic & international.
+        * Quality, reliability, & cost savings initiatives with a variety of electro‑mechanical solutions.
+
+    - company: iRobot Corp
+      link:
+      tags: 
+      date: 2014, 2015
+      role: Mechanical Engineering Intern
+      location: Bedford, MA
+      description:
+
+    - company: General Dynamics AIS
+      link:
+      tags: 
+      date: 2013
+      role: Systems Engineering Intern
+      location: Waltham, MA
+      description:
+
+project:
+  show: true
+  order: 4
+  title: Projects
+  description:     
+  items:
+    - name: Personal project
+      link: '#'
+      tags:
+      date: 2015 - 2017
+      description: |
+        Personal project description...
+        + First
+        + Second
+
+    - name: OSS project
+      link:
+      tags: committer
+      date:
+      description: |
+        OSS project description...
+        + First
+        + Second
+
+skill:
+  show: true
+  order: 5
+  title: Skills
+  description:
+  # items:
+  #   - name: Skill A
+  #     level: 5
+  groups:
+    - name: Preferred Languages
+      item:
+        - Python
+        - Rust
+        - Go
+        - Typescript
+        - Shell
+        - C++
+    - name: Frameworks/Libraries
+      item:
+        - Django
+        - ROS 1
+        - ROS 2
+        - Git
+        - LaTeX
+    - name: Group C Skills
+      item:
+        - Linux
+        - WSL
+        - Docker
+        - Pytorch
+        - Tensorflow
+        - YOLO
+        - Marlin
+        - OpenCV
+        - Pandas
+        - PlatformIO
+    - name: Extant
+      item:
+        - CAD Design
+        - PCB Design
+
+education:
+  show: true
+  order: 2
+  title: Education
+  description: 
+  items:
+    - institution: Rowan University
+      link: 
+      date: 2023
+      major: Computer Science, 3.94 GPA 
+      degree: Master of Science
+      description: |
+        * Upsilon Pi Epsilon
+        * Outstanding Graduate Award
+
+      # Machine Learning Engineering, CICD, Robotics
+
+    - institution: Rochester Institute of Technology
+      link:
+      date: 2015
+      major: Mechanical Engineering
+      degree: Bachelor of Science
+      description: |
+
+certificate:
+  show: false
+  order: 6
+  title: Certificates
+  description: 
+
+  items:
+    - name: Example Certificate One
+      issuer: by Example
+      date: 2020
+      link: '#'
+      description: |
+        It's my Example Certificate One by Example.
+
+publication:
+  show: true
+  order: 7
+  title: Publications
+  description: |
+    I think I have three publications to find?
+
+  items:
+    - title: Some Thing
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link:
+
+award:
+  show: false
+  order: 8
+  title: Awards
+  description:
+
+  items:
+    - name: Outstanding Graduate Award
+      awarder: Rowan University
+      date: 2023
+      link: '#'
+      description: |
+        It's my Example Awared One by Example.
+
+patent:
+  show: false
+  order: 9
+  title: Patents
+  description: |
+    The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.
+
+    In this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is "pending" or "in review." You may also want to provide a brief description of the technology or invention that the patent covers.
+
+    Including a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.
+
+    Template for a pending patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.
+
+    Template for an approved patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].
+
+    The following are some examples of patent formats.
+
+    + Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.
+    + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
+
+organization:
+  show: false
+  order: 10
+  title: Organizations
+  description:
+
+language:
+  show: false
+  order: 11
+  title: Languages
+  description: 
+
+  items:
+    - idiom: English
+      level: Native
+
+interest:
+  show: true
+  order: 12
+  title: Interests
+  description:
+  items:
+    - item: Tabletop Game Design
+      link: '#'
+    - item: Arcade Hardware
+      link:
+    - item: Homelab
+
+evaluation:
+  show: false
+  order: 13
+  title: Self-evaluation
+  description: 
+
+reference:
+  show: false
+  order: 14
+  title: References
+  description:
+
+  items:
+    - name: Foo One
+      link: '#'
+      title: Backend Developer
+      institution: Second Company
+      address: 1234 Example St, XXX, XY 11111
+      email: foo.one@example.com
+      phone: 111-222-333
+      description: |
+        Foo One was my colleague in Second Company.
+
+close:
+  description: Resume closed for renovations 😉 
+  image:
+    show: true                       # show or hide avatar
+    path: /images/construction.gif        # file path or link to your avatar
+
