@@ -14,7 +14,7 @@ params:
   description:              # your resume desc  ription
   openGraph:
     enable: true                # enable open graph meta tags
-    image: /static/profile.png  # path or link to the open graph image
+    image: /images/profile.png  # path or link to the open graph image
   # Style
   dateFormat: 2006-01-02    # date format
   themeColor: "#A32CC4"     # your favorite theme color
