@@ -9,7 +9,7 @@ markup/goldmark/renderer/unsafe: true   # allow HTML tags in markdown
 
 params:
   # Privacy
-  open: false              # show or hide your resume
+  open: true                # show or hide your resume
   allowSearchEngines: true  # allow your resume indexing by search engine, 'true' or 'false'
   description:              # your resume desc  ription
   openGraph:
@@ -26,7 +26,7 @@ params:
   sectionBackground: true   # section title backound, 'true' or 'false'
   skillLevelIcon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
   linkIcon: true            # show link icon, 'true' or 'false'
-  siteFooter: false         # show site footer, 'true' or 'false'
+  siteCredit: true         # show site footer, 'true' or 'false'
   # Analytics
   analytics:
     google:                 # google
