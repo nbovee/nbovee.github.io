@@ -119,12 +119,11 @@ experience:
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
-        * Grant funded research into feasibility & accuracy of **split computation AI** models.
-        * Development of an open source python package for zero‑deployment operation of **machine learning** test suites.
-        * Package can at runtime select and split any **Pytorch** models into early exit and quantatized forms without extension.
-        * Optimization strategies for low power edge device model operation.
-        * Create ROS firmware for a robotic **edge computing** AI test platform, based on a Jetson TX2.
-        * **Containerization** of robot firmware to eliminate coupling to hardware specific outdated dependencies.
+        * Grant funded research into feasibility & accuracy of **split computation AI** models
+        * Development of an open source python package for zero‑deployment operation of **machine learning** test suites
+        * Optimization strategies for low power edge device model operation
+        * Create ROS firmware for a robotic **edge computing** AI test platform, based on a Jetson TX2
+        * **Containerization** of robot firmware to eliminate coupling to hardware specific outdated dependencies
     - company: Rowan University College of Engineering
       link: 
       tags: 
@@ -132,13 +131,13 @@ experience:
       role: Engineering Specialist II & III
       location: Glassboro, NJ
       description: |
-        * Lead of Engineering's internal Github Organization, setting policy on **CI/CD** and development.
-        * Manage Physical Prototyping Lab, consulting on and fabricating custom equipment for affiliates. 
-        * Architect & codeowner of **Django** based internal web ERP system.
-        * Specify & install state of the art rapid prototyping equipment in the course of Rowan's mission.
-        * Consult with internal & external organization on policy and emerging technologies.
-        * Manage & mentor student employee teams maintaining internal manufacturing facilities.
-        * Independently develop specialized **embedded systems** for undergraduate use.
+        * Lead of Engineering's internal Github Organization, setting policy on **CI/CD** and development
+        * Manage Physical Prototyping Lab, consulting on and fabricating custom equipment for affiliates
+        * Architect & codeowner of **Django** based internal web enterprise resource planning system
+        * Specify & install state of the art rapid prototyping equipment in the course of Rowan's mission
+        * Consult with internal & external organization on policy and emerging technologies
+        * Manage & mentor student employee teams maintaining internal manufacturing facilities
+        * Independently develop specialized **embedded systems** for undergraduate use
     # - company: Rowan University College of Engineering
     #   link: 
     #   tags: 
@@ -157,10 +156,10 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Automation design of secondary processes, optimization of **robotics** procedures to decrease cycle time.
-        * Design high ROI vision inspection quality equipment, generating average of yearly savings of **$57k** each.
-        * Commission of new equipment for onsite manufacturing and other EGI locations both domestic & international.
-        * Quality, reliability, & cost savings initiatives with a variety of electro‑mechanical solutions.
+        * Automation design of secondary processes, optimization of **robotics** procedures to decrease cycle time
+        * Designed high ROI vision inspection installations, generating average of yearly savings of **$57k** each
+        * Commission of new equipment for onsite manufacturing and other EGI locations both domestic & international
+        * Quality, reliability, & cost savings initiatives with a variety of electro‑mechanical solutions
 
     - company: iRobot Corporation
       link:
@@ -184,20 +183,20 @@ project:
   title: Projects
   description:     
   items:
-    - name: Engineering Training & Resources webpage
+    - name: Engineering Training & Resources
       link: https://etr.rowan.edu
       tags:
       date: 2021 - 2024
       description: |
-        * Product owner of enterprise resource planning tool with rolling **400** active users.
-        * Fullstack **DevOps** for Django, PostgreSQL, Nginx, Redis, Celery container stack.
-        * Kanban inventory system, work requests, preventative maintenance, safety training & test administration.
-        * Containerize development environment to ensure code consistency from junior developers.
-        * Reduced ticket errors by **76%** with latest user workflow & validations.
-        * Develop test suite and enforced contribution guidelines for use within core team.
-        * Create initial GitLab **continuous integration** stages to validate contributions.
-        * Optimize CICD processes, automating deployment & reducing compute time usage by **60%**.
-        * Current: Migrate CICD to **GitHub Actions** & refactor underlying models for 2.0 release.
+        * Product owner of ERP tool with rolling **400** active users
+        * Fullstack **DevOps** for Django, PostgreSQL, Nginx, Redis, Celery container stack
+        * Kanban inventory system, work requests, preventative maintenance, safety training & test administration
+        * Containerize development environment to ensure code consistency from junior developers
+        * Reduced ticket errors by **76%** with latest user workflow & validations
+        * Develop test suite and enforced contribution guidelines for use within core team
+        * Create initial GitLab **continuous integration** stages to validate contributions
+        * Optimize CICD processes, automating deployment & reducing compute time usage by **60%**
+        * Current: Migrate CICD to **GitHub Actions** & refactor underlying models for 2.0 release
 
     # - name: tracr
     #   link:
@@ -206,6 +205,8 @@ project:
     #   description: |
     #     OSS project description...
     #     + First
+            # * Package can at runtime select and split any **Pytorch** models into early exit and quantatized forms without extension.
+
     #     + Second
 
 skill:
