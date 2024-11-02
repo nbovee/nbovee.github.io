@@ -260,7 +260,8 @@ education:
     - institution: Rowan University
       link: 
       date: 2023
-      major: Computer Science, 3.94 GPA 
+      major: Computer Science
+      gpa: "**3.94**"
       degree: Master of Science
       description: |
         * Upsilon Pi Epsilon member
@@ -272,6 +273,7 @@ education:
       link:
       date: 2015
       major: Mechanical Engineering
+      gpa:
       degree: Bachelor of Science
       description: |
 
