@@ -122,7 +122,7 @@ experience:
         * Grant funded research into feasibility & accuracy of **split computation AI** models
         * Development of an open source python package for zero‑deployment operation of **machine learning** test suites
         * Optimization strategies for low power edge device model operation
-        * Create ROS firmware for a robotic **edge computing** AI test platform, based on a Jetson TX2
+        * Create ROS firmware for a robotic **edge computing** AI test platform, based on  Nvidia Jetson platform
         * **Containerization** of robot firmware to eliminate coupling to hardware specific outdated dependencies
     - company: Rowan University College of Engineering
       link: 
@@ -157,8 +157,8 @@ experience:
       location: Rochester, NY
       description: |
         * Automation design of secondary processes, optimization of **robotics** procedures to decrease cycle time
-        * Designed high ROI vision inspection installations, generating average of yearly savings of **$57k** each
-        * Commission of new equipment for onsite manufacturing and other EGI locations both domestic & international
+        * Design of high ROI vision inspection installations, resulting in yearly savings of **$171k**
+        * Commission of new equipment for onsite manufacturing at domestic & international EGI locations
         * Quality, reliability, & cost savings initiatives with a variety of electro‑mechanical solutions
 
     - company: iRobot Corporation
@@ -197,18 +197,22 @@ project:
         * Create initial GitLab **continuous integration** stages to validate contributions
         * Optimize CICD processes, automating deployment & reducing compute time usage by **60%**
         * Current: Migrate CICD to **GitHub Actions** & refactor underlying models for 2.0 release
-
-    # - name: tracr
-    #   link:
-    #   tags: committer
-    #   date:
-    #   description: |
-    #     OSS project description...
-    #     + First
-            # * Package can at runtime select and split any **Pytorch** models into early exit and quantatized forms without extension.
-
-    #     + Second
-
+    - name: tracr
+      link:
+      tags: prerelease
+      date:
+      description: |
+        * OSS package to accelerate testing and profiling of pytorch models for split computation
+        * built in logging & scheduler for rapid test completion
+        * Current: finalization of release to PyPI
+    - name: Rowan Hydra overhaul
+      link:
+      tags: 
+      date:
+      description: |
+        * Overhaul of ROS1 Jetson TX2 robotics platform for research operation
+        * Containerize AI nodes of Hydra to separate DNN environment from main OS 18.04
+        * Current: Upgrading system to Jetson Orin Nano with ROS2 architecture
 skill:
   show: true
   order: 5
@@ -231,6 +235,7 @@ skill:
         - Linux
         - WSL
         - Docker
+        - Kubernetes
         - PlatformIO
         - Git
         - uv
