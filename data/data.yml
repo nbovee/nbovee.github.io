@@ -5,7 +5,7 @@ meta:
 basic:
   name: Nicholas Bovee                      # name
   title: Software Engineer        # job title
-  description: Accomplished engineer solidifying migration to software
+  description: Mechanical engineer turned software, specialized in robotics & ML
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
@@ -108,22 +108,23 @@ profile:
 
 experience:
   show: true
-  order: 3
+  order: 2
   title: Experience
   description:
   items:
     - company: Rowan University College of Science
       link: 
-      tags: Contract Research
+      tags: 
       date: 2021 - Current
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
-        * Grant funded research into feasibility & accuracy of **split computation AI** models
-        * Development of an open source python package for zero‑deployment operation of **machine learning** test suites
-        * Optimization strategies for low power edge device model operation
-        * Create ROS firmware for a robotic **edge computing** AI test platform, based on  Nvidia Jetson platform
-        * **Containerization** of robot firmware to eliminate coupling to hardware specific outdated dependencies
+        * Researched feasibility & accuracy of **split computation AI** models, NSF funded
+        * Developed an open source python package for zero‑deployment of **machine learning** test suites
+        * Implemented power and latency optimization strategies for edge device model operation
+        * Created ROS source firmware for a robotic **edge computing** AI test platform
+        * **Containerization** of robot firmware, eliminating coupling to hardware dependencies
+
     - company: Rowan University College of Engineering
       link: 
       tags: 
@@ -131,24 +132,14 @@ experience:
       role: Engineering Specialist II & III
       location: Glassboro, NJ
       description: |
-        * Lead of Engineering's internal Github Organization, setting policy on **CI/CD** and development
-        * Manage Physical Prototyping Lab, consulting on and fabricating custom equipment for affiliates
+        * Lead for internal Github Organization, setting policy on **CI/CD** and development
+        * Managed Physical Prototyping Lab, consulting on and fabricating custom equipment
         * Architect & codeowner of **Django** based internal web enterprise resource planning system
-        * Specify & install state of the art rapid prototyping equipment in the course of Rowan's mission
-        * Consult with internal & external organization on policy and emerging technologies
-        * Manage & mentor student employee teams maintaining internal manufacturing facilities
-        * Independently develop specialized **embedded systems** for undergraduate use
-    # - company: Rowan University College of Engineering
-    #   link: 
-    #   tags: 
-    #   date: 2018 - 2021
-    #   role: Engineering Specialist III
-    #   location: Glassboro, NJ
-    #   description: |
-    #     * Specify & install state of the art equipment to support engineering research & education.
-    #     * Consult on & develop custom equipment for research & undergraduate operations.
-    #     * Facilitate undergraduate education in the college of engineering's unique first- & second-year engineering clinics.
-    #     * Create education projects that illustrate modern rapid prototyping, project management, & development cycles to students.
+        * Consulted with internal & external organization on policy and emerging technologies
+        * Specified state of the art **rapid prototyping** equipment in the course of Rowan's mission
+        * Managed & mentored student employees (>12) maintaining internal manufacturing facilities
+        * Independently developed specialized **embedded systems** for undergraduate use
+
     - company: Ernie Green Industries
       link: 
       tags: 
@@ -156,10 +147,8 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Automation design of secondary processes, optimization of **robotics** procedures to decrease cycle time
-        * Design of high ROI vision inspection installations, resulting in yearly savings of **$171k**
-        * Commission of new equipment for onsite manufacturing at domestic & international EGI locations
-        * Quality, reliability, & cost savings initiatives with a variety of electro‑mechanical solutions
+        * Designed **robotics** to decrease cycle time at domestic & international EGI locations
+        * Designed high ROI vision inspection installations, resulting in yearly savings of **$171k**
 
     - company: iRobot Corporation
       link:
@@ -183,39 +172,57 @@ project:
   title: Projects
   description:     
   items:
-    - name: Engineering Training & Resources
+    - name: Engineering Training & Resources Webpage
       link: https://etr.rowan.edu
       tags:
       date: 2021 - 2024
       description: |
-        * Product owner of ERP tool with rolling **400** active users
+        * Product owner of ERP tool with 1600 total users, **400** weekly active users
         * Fullstack **DevOps** for Django, PostgreSQL, Nginx, Redis, Celery container stack
-        * Kanban inventory system, work requests, preventative maintenance, safety training & test administration
-        * Containerize development environment to ensure code consistency from junior developers
-        * Reduced ticket errors by **76%** with latest user workflow & validations
-        * Develop test suite and enforced contribution guidelines for use within core team
+        * Kanban inventory system, ticketing, preventative maintenance, safety training & test administration
+        * Containerized dev environment and wrote integrated **test suites** to support junior developers
+        * Reduced ticket errors by **76%** with upgraded user workflow & validations
         * Create initial GitLab **continuous integration** stages to validate contributions
         * Optimize CICD processes, automating deployment & reducing compute time usage by **60%**
         * Current: Migrate CICD to **GitHub Actions** & refactor underlying models for 2.0 release
-    - name: tracr
+
+    - name: tracr Python Package
       link:
       tags: prerelease
-      date:
+      date: 2023 - 2024
       description: |
-        * OSS package to accelerate testing and profiling of pytorch models for split computation
-        * built in logging & scheduler for rapid test completion
-        * Current: finalization of release to PyPI
-    - name: Rowan Hydra overhaul
+        * OSS package to accelerate testing and **profiling** of pytorch models for split computation
+        * Utilize pytorch pre/post hook capabilities to dynamically profile ML models
+        * Additional integrated handling for **Ultralytics** library of YOLO models
+        * Integrated logger tracks supplied image, results, and timestamps of each stage
+        * Observer tool extracts real time results from outside of test circuit
+        * Selection of custom scheduler to test different computation priorities
+        * Current: finalization of release to **PyPI**
+
+    - name: Rowan Hydra Robot
       link:
       tags: 
-      date:
+      date: 2023 - 2024
       description: |
-        * Overhaul of ROS1 Jetson TX2 robotics platform for research operation
-        * Containerize AI nodes of Hydra to separate DNN environment from main OS 18.04
-        * Current: Upgrading system to Jetson Orin Nano with ROS2 architecture
+        * Overhaul of ROS1 **Jetson TX2** robotics platform for research operation
+        * Containerize AI nodes of Hydra to separate DNN environment from Ubuntu 18.04
+        * Mechanical and electrical redesign for system longevity
+        * Current: Upgrading system to **Jetson Orin Nano** with ROS2 architecture
+
+    - name: Underwater Remote Operated Vehicle
+      link:
+      tags:
+      date: 2022 - 2024
+      description: |
+        * Created an IP68 compliant ROV with **custom PCB** and ventilated enclosure for engineering curriculum
+        * Simulated thermal conditions to determine minimum tether diameter
+        * Control logic handled by a **Raspberry Pi** with connection dropout protection
+        * Flexible control system with wireless RC control and onboard IP camera intergration
+        * Current: PoE integration and integration of onboard floodlights and actuators
+
 skill:
   show: true
-  order: 5
+  order: 3
   title: Skills
   description:
   # items:
@@ -230,36 +237,39 @@ skill:
         - Shell
         - C++
         - Typescript
-    - name: Platforms
+        - Java
+    - name: Frameworks & Platforms
       item:
         - Linux
-        - WSL
+        - Windows
+        - ROS
         - Docker
         - Kubernetes
         - PlatformIO
-        - Git
-        - uv
-        - LaTeX
         - Jetpack
-    - name: Frameworks & Libraries
+    - name: Tools & Libraries
       item:
-        - Django
-        - ROS 1 & 2
         - Pytorch
+        - Django
         - YOLO
         - Marlin
         - OpenCV
         - Pandas
+        - Git
+        - uv
+        - LaTeX
     - name: Cross Disciplinary
       item:
-        - CAD Design
-        - PCB Design
-        - Manufacturing
-        - Rapid prototyping
+        - Solidworks
+        - Fusion360
+        - Altium
+        - KiCad
+        - Rapid Prototyping
+        - 3D Printing
 
 education:
   show: true
-  order: 2
+  order: 1
   title: Education
   description: 
   items:
@@ -290,12 +300,11 @@ certificate:
   description: 
 
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
-      link: '#'
-      description: |
-        It's my Example Certificate One by Example.
+    - name: SOLIDWORKS CAD Design Associate (CSWA)
+      issuer: Dassault Systèmes 
+      date: 2010
+      link:
+      description:
 
 publication:
   show: true
@@ -303,11 +312,11 @@ publication:
   title: Publications
   description: |
   items:
-    - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge [Poster]"
+    - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
       authors: N Bovee, S Piccolo, GK Patapanchala, SS Ho
       conference: ICFEC, 2024
       link: https://ieeexplore.ieee.org/abstract/document/10707214/
-    - title: "Computation Offloading for Precision Agriculture using Cooperative Inference [Poster]"
+    - title: "Computation Offloading for Precision Agriculture using Cooperative Inference"
       authors: S Bitla, GK Patapanchala, N Bovee, PR Sanchez, SS Ho
       conference: ICFEC, 2024
       link: https://ieeexplore.ieee.org/abstract/document/10707172/
