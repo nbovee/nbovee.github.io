@@ -236,8 +236,6 @@ skill:
         - Go
         - Shell
         - C++
-        - Typescript
-        - Java
     - name: Frameworks & Platforms
       item:
         - Linux
@@ -320,7 +318,7 @@ publication:
       authors: S Bitla, GK Patapanchala, N Bovee, PR Sanchez, SS Ho
       conference: ICFEC, 2024
       link: https://ieeexplore.ieee.org/abstract/document/10707172/
-    - title: "Experimental test-bed for computation offloading for cooperative inference on edge devices"
+    - title: "Experimental Test-bed for Computation Offloading for Cooperative Inference on Edge Devices"
       authors: N Bovee, S Piccolo, SS Ho, N Wang
       conference: SEC, 2023
       link: https://dl.acm.org/doi/abs/10.1145/3583740.3626814
