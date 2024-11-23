@@ -119,11 +119,11 @@ experience:
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
-        * Independantly esearched feasibility & accuracy of **split computation AI** models, NSF funded
+        * Independantly researched feasibility & accuracy of **split computation AI** models, NSF funded
         * Developed an open source python package for zero‑deployment of **machine learning** test suites
         * Implemented power & latency optimization strategies **edge computing** for DNN models
         * Created & **containerized** ROS robot firmware, eliminating coupling to hardware dependencies
-        * Lead research team
+        * Lead research team with three junior software developers
 
     - company: Rowan University College of Engineering
       link: 
@@ -147,8 +147,7 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Designed **robotics** to decrease cycle time at domestic & international EGI locations
-        * Designed high ROI vision inspection installations, generating **$171k** savings annually
+        * Designed **robotics** vision inspection installations, generating **$171k** savings annually
 
     - company: iRobot Corporation
       link:
@@ -160,7 +159,7 @@ experience:
 
     - company: General Dynamics Missions Systems
       link:
-      tags: 
+      tags: Secret Clearance
       date: 2013
       role: Systems Engineering Intern
       location: Waltham, MA
@@ -206,7 +205,7 @@ project:
       description: |
         * Overhauled ROS1 **Jetson TX2** robotics platform for research operation
         * Containerized AI nodes of Hydra to separate DNN environment from Ubuntu 18.04
-        * Redesigned mechanical and electrical systems for system longevity
+        * Redesigned mechanical & electrical systems for system longevity
         * **Current:** Upgrading system to **Jetson Orin Nano** with ROS2 architecture
 
     - name: Underwater Remote Operated Vehicle
@@ -214,11 +213,11 @@ project:
       tags:
       date: 2022 - 2024
       description: |
-        *Created an IP68 compliant ROV with **custom PCB** and ventilated enclosure for engineering curriculum*
+        *Created an IP68 compliant ROV with **custom PCB** & ventilated enclosure for engineering curriculum*
         * Simulated thermal conditions to determine minimum tether diameter
         * Control logic handled by a **Raspberry Pi** with connection dropout protection
-        * Flexible control system with wireless RC control and onboard IP camera integration
-        * **Current:** PoE integration and integration of onboard floodlights and actuators
+        * Flexible control system with wireless RC control & onboard IP camera integration
+        * **Current:** PoE integration & integration of onboard floodlights & actuators
 
 skill:
   show: true
@@ -278,9 +277,10 @@ education:
       gpa: "**3.94**"
       degree: Master of Science
       description: |
-        * Outstanding Graduate Award 2024, inducted to Upsilon Pi Epsilon 2023
-        * Lead Student Engineer for NSF Edge Computing Grant 
-        
+        * Outstanding Graduate Award 2024
+        * Inducted to Upsilon Pi Epsilon 2023
+        * Research Engineer for NSF Edge Computing Grant 
+
     - institution: Rochester Institute of Technology
       link:
       date: 2015
