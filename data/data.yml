@@ -119,7 +119,7 @@ experience:
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
-        * Independantly researched feasibility & accuracy of **split computation AI** models, NSF funded
+        * Independently researched feasibility & accuracy of **split computation AI** models, NSF funded
         * Developed an open source python package for zero‑deployment of **machine learning** test suites
         * Implemented power & latency optimization strategies **edge computing** for DNN models
         * Created & **containerized** ROS robot firmware, eliminating coupling to hardware dependencies
@@ -277,10 +277,10 @@ education:
       gpa: "**3.94**"
       degree: Master of Science
       description: |
+        * Research Engineer for NSF Edge Computing Grant 
         * Outstanding Graduate Award 2024
         * Inducted to Upsilon Pi Epsilon 2023
-        * Research Engineer for NSF Edge Computing Grant 
-
+        
     - institution: Rochester Institute of Technology
       link:
       date: 2015
