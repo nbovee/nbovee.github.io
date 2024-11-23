@@ -11,10 +11,10 @@ basic:
     path: /images/profile.png        # file path or link to your avatar
 
 contact:
-  location: Cherry Hill, New Jersey    # location, text or markdown link syntax
-  email:       # email address
-  phone:    # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: # site link without schema, like example.com, will automatically prepend "https://"
+  location: Cherry Hill, New Jersey      # location, text or markdown link syntax
+  email:                    # email address
+  phone:                    # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website:                  # site link without schema, like example.com, will automatically prepend "https://"
 
   gender:                   # gender or pronoun
   birthday:                 # birthday
@@ -147,7 +147,7 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Designed **robotics** vision inspection installations, generating **$171k** savings annually
+        * Designed **robotics** & vision inspection installations, generating **$171k** savings annually
 
     - company: iRobot Corporation
       link:
