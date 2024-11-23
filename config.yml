@@ -17,7 +17,7 @@ params:
     image: /images/profile.png  # path or link to the open graph image
   # Style
   dateFormat: 2006-01-02    # date format
-  themeColor: "#A32CC4"     # your favorite theme color
+  themeColor: "#32a852" #"#A32CC4"     # your favorite theme color
   contactDelimiter: "·"     # contact delimiter, '·', '/' or '|'
   sectionIcon: true         # section title icon, 'true' or 'false'
   sectionTitle: uppercase   # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
