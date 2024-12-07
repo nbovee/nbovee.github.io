@@ -138,7 +138,7 @@ experience:
         * Consulted with internal & external organization on policy & emerging technologies
         * Specified state of the art **rapid prototyping** equipment in the course of Rowan's mission
         * Managed & mentored student employees (>12) maintaining internal manufacturing facilities
-        * Independently developed specialized **embedded systems** for undergraduate use
+        * Independently developed specialized **C++** embedded systems for undergraduate use
 
     - company: Ernie Green Industries
       link: 
@@ -231,10 +231,10 @@ skill:
     - name: Preferred Languages
       item:
         - Python
-        - Rust
         - Go
-        - Shell
-        - C++
+        - Rust
+        - Java
+        - TypeScript
     - name: Frameworks & Platforms
       item:
         - Linux
@@ -254,7 +254,7 @@ skill:
         - Pandas
         - Git
         - uv
-        - LaTeX
+        - Shell
     - name: Cross Disciplinary
       item:
         - Solidworks
