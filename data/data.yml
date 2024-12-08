@@ -5,7 +5,7 @@ meta:
 basic:
   name: Nicholas Bovee                      # name
   title: Software Engineer        # job title
-  description: Robotics & ML specialization, MechE foundation
+  description: Broad skillset with a focus on robotics & ML
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
