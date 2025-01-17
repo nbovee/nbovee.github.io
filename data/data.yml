@@ -5,14 +5,14 @@ meta:
 basic:
   name: Nicholas Bovee                      # name
   title: Software Engineer        # job title
-  description: Broad skillset with a focus on robotics & ML
+  description: Interests in Backend, Robotics, & ML
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
 
 contact:
   location: Cherry Hill, New Jersey      # location, text or markdown link syntax
-  email:                    # email address
+  email:                    contact@nicholas.bov.ee # email address
   phone:                    # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:                  # site link without schema, like example.com, will automatically prepend "https://"
 
