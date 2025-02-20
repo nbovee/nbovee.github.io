@@ -11,7 +11,7 @@ params:
   # Privacy
   open: true                # show or hide your resume
   allowSearchEngines: true  # allow your resume indexing by search engine, 'true' or 'false'
-  description: Accomplished engineer in both software & mechanical              # your resume description
+  description: Accomplished engineer with interdisciplinary experience in software & hardware              # your resume description
   openGraph:
     enable: true                # enable open graph meta tags
     image: /images/profile.png  # path or link to the open graph image

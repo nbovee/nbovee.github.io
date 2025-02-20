@@ -112,26 +112,35 @@ experience:
   title: Experience
   description:
   items:
-    - company: Rowan University College of Science
+    - company: Rowan University CS Department
       link: 
       tags: NSF Grant
       date: 2021 - Current
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
-        * Lead research team of three junior developers into techniques on **split computation AI** models
-        * Research **edge computing** power & latency optimization for **precision agriculture**
+        * Research **edge computing** power & latency optimization strategies
+        * Applications in **precision agriculture**,security, & personal AI
+        * Lead 5 member research team on techniques on **split computation AI** models
+        * Created **SplitTracr** FOSS package to split & profile **PyTorch** models
+          * Used to profile CNN, YOLO, Transformer models in-situ for edge computing
+        * Containerized rework of **Jetson** robot in **ROS** for research operation
+        * Technical Lead during I-Corps regional incubator for precision agriculture applications
 
-    - company: Rowan University College of Engineering
+    - company: Rowan University Engineering
       link: 
       tags: 
       date: 2018 - Current
-      role: Engineering Specialist
+      role: Engineering Specialist I & II
       location: Glassboro, NJ
       description: |
-        * Architect of internal **ERP** system, Lead internal Github Org. workflow & **CI/CD** practices
-        * Design & fabricate custom equipment, PCBs & embedded IoT systems
+        * Architect of internal **ERP** system with 400 users
+          * Built with **Django**, PostgreSQL, Nginx, Docker, Kubernetes
+        * Lead internal Engineering Github group for DevOps workflows & **CI/CD** practices
+        * Design, engineer, & fabricate custom equipment for daily operations & specialized projects
+          * Projects include IoT Engineering Safety Controls, UROV, & embedded IoT systems
         * Manage Physical Prototyping Lab, mentoring >12 student employees
+          * Center for CNC machining, 3D printing, & custom PCB assembly
 
     - company: Ernie Green Industries
       link: 
@@ -140,7 +149,7 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Designed PLC, **robotic**, & vision inspection installations, generating **$171k** savings annually
+        * Designed automated assembly, **robotic** extraction, & vision inspection installations
 
     - company: iRobot Corporation
       link: 
@@ -160,49 +169,49 @@ experience:
 
 project:
   show: true
-  order: 4
-  title: Projects
+  order: 6
+  title: Personal Projects
   description:     
   items:
-    - name: Engineering Training & Resources Webpage
-      link: https://etr.rowan.edu
-      tags: Rowan
-      date: 2023 - 2025
-      description: |
-        ERP tool with 1600 users, using **Django**, PostgreSQL, Docker, SCSS, etc.
-        * Fullstack & **DevOps** for Kanban inventory, ticketing, maintenance, & safety training
-        * Reworked development process & **CI/CD** to quickly onboard junior developers
+    # - name: Engineering Training & Resources Webpage
+    #   link: https://etr.rowan.edu
+    #   tags: Rowan
+    #   date: 2023 - 2025
+    #   description: |
+    #     * ERP tool with 1600 users, using **Django**, PostgreSQL, Docker, SCSS, etc.
+    #     * Fullstack & **DevOps** for Kanban inventory, ticketing, maintenance, & safety training
+    #     * Reworked development process & **CI/CD** to quickly onboard junior developers
 
-    - name: SplitTracr Python Package
-      link: https://github.com/nbovee/tracr
-      tags: NSF Grant
-      date: 2023 - 2025
-      description: |
-        FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
+    # - name: SplitTracr Python Package
+    #   link: https://github.com/nbovee/tracr
+    #   tags: NSF Grant
+    #   date: 2023 - 2025
+    #   description: |
+    #     FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
     - name: Movie Night Microservices
       link: https://github.com/nbovee/movie-runoff
-      tags: personal
+      tags: 
       date: 2024 - 2025
       description: |
         **Google Cloud**, REST, **gRPC**, Go & Python microservices to handle movie preference voting
     - name: Food Bank & Pantry Local Inventory System
       link: https://github.com/nbovee/shop-inventory
-      tags: contract
+      tags: 
       date: 2024 - 2025
       description: |
         Multi-device checkout system on captive portal, pre-compiled with **pi-gen** due to WAN restriction 
-    - name: Rowan Hydra Robot
-      link: 
-      tags: NSF Grant
-      date: 2023 - 2024
-      description: |
-        Containerized rework of **Jetson TX2** robotics platform in **ROS1** for research operation
-    - name: Underwater Remote Operated Vehicle Control System
-      link:
-      tags: Rowan
-      date: 2022 - 2023
-      description: |
-        IP68 compliant ROV based on Raspberry Pi 4, **custom PCB**, wireless RC, IP camera
+    # - name: Rowan Hydra Robot
+    #   link: 
+    #   tags: NSF Grant
+    #   date: 2023 - 2024
+    #   description: |
+    #     Containerized rework of **Jetson TX2** + **Orin** robotics platform in **ROS** for research operation
+    # - name: Underwater Remote Operated Vehicle Control System
+    #   link:
+    #   tags: Rowan
+    #   date: 2022 - 2023
+    #   description: |
+    #     IP68 compliant ROV based on Raspberry Pi 4, **custom PCB**, wireless RC, IP camera
 
 skill:
   show: true
@@ -219,7 +228,7 @@ skill:
         - Go
         - Rust
         - TypeScript
-        - Javascript
+        - Java
         - PyTorch
         - Django
         - YOLO
@@ -283,7 +292,7 @@ certificate:
 
 publication:
   show: true
-  order: 7
+  order: 5
   title: Publications
   description: |
   items:
