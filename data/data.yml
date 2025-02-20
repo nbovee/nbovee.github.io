@@ -4,14 +4,14 @@ meta:
 
 basic:
   name: Nicholas Bovee                      # name
-  title: Software Engineer        # job title
-  description: Interests in Backend, Robotics, & ML
+  title: Software Engineer       # job title
+  description: Backend, Robotics, AI, Embedded
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
 
 contact:
-  location: Cherry Hill, New Jersey      # location, text or markdown link syntax
+  location: New Jersey      # location, text or markdown link syntax
   email:                    contact@nicholas.bov.ee # email address
   phone:                    # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:                  # site link without schema, like example.com, will automatically prepend "https://"
@@ -112,33 +112,35 @@ experience:
   title: Experience
   description:
   items:
-    - company: Rowan University College of Science
+    - company: Rowan University CS Department
       link: 
-      tags: Grant Research
+      tags: NSF Grant
       date: 2021 - Current
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
-        * Independently researched feasibility & accuracy of **split computation AI** models, NSF funded
-        * Developed an open source python package for zero‑deployment of **machine learning** test suites
-        * Implemented power & latency optimization strategies **edge computing** for DNN models
-        * Created & **containerized** ROS robot firmware, eliminating coupling to hardware dependencies
-        * Lead research team with three junior software developers
+        * Research **edge computing** power & latency optimization strategies
+        * Applications in **precision agriculture**,security, & personal AI
+        * Lead 5 member research team on techniques on **split computation AI** models
+        * Created **SplitTracr** FOSS package to split & profile **PyTorch** models
+          * Used to profile CNN, YOLO, Transformer models in-situ for edge computing
+        * Containerized rework of **Jetson** robot in **ROS** for research operation
+        * Technical Lead during I-Corps regional incubator for precision agriculture applications
 
-    - company: Rowan University College of Engineering
+    - company: Rowan University Engineering
       link: 
       tags: 
       date: 2018 - Current
-      role: Engineering Specialist II & III
+      role: Engineering Specialist I & II
       location: Glassboro, NJ
       description: |
-        * Lead for internal Github Organization, setting policy on **CI/CD** & system design
-        * Managed Physical Prototyping Lab, consulting on & fabricating custom equipment
-        * Architect & codeowner of **Django** based internal web enterprise resource planning system
-        * Consulted with internal & external organization on policy & emerging technologies
-        * Specified state of the art **rapid prototyping** equipment in the course of Rowan's mission
-        * Managed & mentored student employees (>12) maintaining internal manufacturing facilities
-        * Independently developed specialized **C++** embedded systems for undergraduate use
+        * Architect of internal **ERP** system with 400 users
+          * Built with **Django**, PostgreSQL, Nginx, Docker, Kubernetes
+        * Lead internal Engineering Github group for DevOps workflows & **CI/CD** practices
+        * Design, engineer, & fabricate custom equipment for daily operations & specialized projects
+          * Projects include IoT Engineering Safety Controls, UROV, & embedded IoT systems
+        * Manage Physical Prototyping Lab, mentoring >12 student employees
+          * Center for CNC machining, 3D printing, & custom PCB assembly
 
     - company: Ernie Green Industries
       link: 
@@ -147,10 +149,10 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Designed **robotics** & vision inspection installations, generating **$171k** savings annually
+        * Designed automated assembly, **robotic** extraction, & vision inspection installations
 
     - company: iRobot Corporation
-      link:
+      link: 
       tags: 
       date: 2014, 2015
       role: Mechanical Engineering Intern
@@ -167,57 +169,49 @@ experience:
 
 project:
   show: true
-  order: 4
-  title: Projects
+  order: 6
+  title: Personal Projects
   description:     
   items:
-    - name: Engineering Training & Resources Webpage
-      link: https://etr.rowan.edu
-      tags:
-      date: 2021 - 2024
-      description: |
-        *ERP tool with 1600 total users, **400** weekly active users*
-        * Owner & fullstack **DevOps** for Django, PostgreSQL, Nginx, Redis, Celery container stack
-        * Kanban inventory system, ticketing, preventative maintenance, safety training & test administration
-        * Containerized dev environment & wrote integrated **test suites** to support junior developers
-        * Reduced ticket errors by **76%** with upgraded user workflow & validations
-        * Created initial GitLab **continuous integration** stages to validate contributions
-        * Optimized CICD processes, automating deployment & reducing compute time usage by **60%**
-        * **Current:** Migrate CICD to **GitHub Actions** & refactor underlying models for 2.0 release
+    # - name: Engineering Training & Resources Webpage
+    #   link: https://etr.rowan.edu
+    #   tags: Rowan
+    #   date: 2023 - 2025
+    #   description: |
+    #     * ERP tool with 1600 users, using **Django**, PostgreSQL, Docker, SCSS, etc.
+    #     * Fullstack & **DevOps** for Kanban inventory, ticketing, maintenance, & safety training
+    #     * Reworked development process & **CI/CD** to quickly onboard junior developers
 
-    - name: tracr Python Package
-      link:
-      tags: prerelease
-      date: 2023 - 2024
-      description: |
-        *OSS package to accelerate testing & profiling of **pytorch** models for split computation*
-        * Utilized pytorch pre/post hook capabilities to dynamically profile ML models
-        * Implemented additional integrated handling for **Ultralytics** library of YOLO models
-        * Integrated logger tracks supplied image, results, & timestamps of each stage
-        * Developed observer tool extracts real time results from outside of test circuit
-        * Provided selection of custom schedulers to test different computation priorities
-        * **Current:** finalization of release to **PyPI**
-
-    - name: Rowan Hydra Robot
-      link:
+    # - name: SplitTracr Python Package
+    #   link: https://github.com/nbovee/tracr
+    #   tags: NSF Grant
+    #   date: 2023 - 2025
+    #   description: |
+    #     FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
+    - name: Movie Night Microservices
+      link: https://github.com/nbovee/movie-runoff
       tags: 
-      date: 2023 - 2024
+      date: 2024 - 2025
       description: |
-        * Overhauled ROS1 **Jetson TX2** robotics platform for research operation
-        * Containerized AI nodes of Hydra to separate DNN environment from Ubuntu 18.04
-        * Redesigned mechanical & electrical systems for system longevity
-        * **Current:** Upgrading system to **Jetson Orin Nano** with ROS2 architecture
-
-    - name: Underwater Remote Operated Vehicle
-      link:
-      tags:
-      date: 2022 - 2024
+        **Google Cloud**, REST, **gRPC**, Go & Python microservices to handle movie preference voting
+    - name: Food Bank & Pantry Local Inventory System
+      link: https://github.com/nbovee/shop-inventory
+      tags: 
+      date: 2024 - 2025
       description: |
-        *Created an IP68 compliant ROV with **custom PCB** & ventilated enclosure for engineering curriculum*
-        * Simulated thermal conditions to determine minimum tether diameter
-        * Control logic handled by a **Raspberry Pi** with connection dropout protection
-        * Flexible control system with wireless RC control & onboard IP camera integration
-        * **Current:** PoE integration & integration of onboard floodlights & actuators
+        Multi-device checkout system on captive portal, pre-compiled with **pi-gen** due to WAN restriction 
+    # - name: Rowan Hydra Robot
+    #   link: 
+    #   tags: NSF Grant
+    #   date: 2023 - 2024
+    #   description: |
+    #     Containerized rework of **Jetson TX2** + **Orin** robotics platform in **ROS** for research operation
+    # - name: Underwater Remote Operated Vehicle Control System
+    #   link:
+    #   tags: Rowan
+    #   date: 2022 - 2023
+    #   description: |
+    #     IP68 compliant ROV based on Raspberry Pi 4, **custom PCB**, wireless RC, IP camera
 
 skill:
   show: true
@@ -228,14 +222,19 @@ skill:
   #   - name: Skill A
   #     level: 5
   groups:
-    - name: Preferred Languages
+    - name:
       item:
         - Python
         - Go
         - Rust
-        - Java
         - TypeScript
-    - name: Frameworks & Platforms
+        - Java
+        - PyTorch
+        - Django
+        - YOLO
+        - Pandas
+        - OpenCV
+    - name:
       item:
         - Linux
         - Windows
@@ -243,19 +242,10 @@ skill:
         - Docker
         - Kubernetes
         - PlatformIO
+        - Marlin 
         - Jetpack
-    - name: Tools & Libraries
-      item:
-        - Pytorch
-        - Django
-        - YOLO
-        - Marlin
-        - OpenCV
-        - Pandas
         - Git
-        - uv
-        - Shell
-    - name: Cross Disciplinary
+    - name:
       item:
         - Solidworks
         - Fusion360
@@ -274,12 +264,10 @@ education:
       link: 
       date: 2023
       major: Computer Science
-      gpa: "**3.94**"
+      # gpa: "**3.94**"
       degree: Master of Science
       description: |
-        * Research Engineer for NSF Edge Computing Grant 
-        * Outstanding Graduate Award 2024
-        * Inducted to Upsilon Pi Epsilon 2023
+        * Research Engineer for NSF Edge Computing Grant, Upsilon Pi Epsilon, Outstanding Graduate Award
         
     - institution: Rochester Institute of Technology
       link:
@@ -287,7 +275,7 @@ education:
       major: Mechanical Engineering
       gpa:
       degree: Bachelor of Science
-      description: |
+      description:
 
 certificate:
   show: false
@@ -304,11 +292,12 @@ certificate:
 
 publication:
   show: true
-  order: 7
+  order: 5
   title: Publications
   description: |
   items:
-    - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
+    - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit [...] on the Edge"
+    # - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
       authors: N Bovee, S Piccolo, GK Patapanchala, SS Ho
       conference: ICFEC, 2024
       link: https://ieeexplore.ieee.org/abstract/document/10707214/
@@ -316,7 +305,8 @@ publication:
       authors: S Bitla, GK Patapanchala, N Bovee, PR Sanchez, SS Ho
       conference: ICFEC, 2024
       link: https://ieeexplore.ieee.org/abstract/document/10707172/
-    - title: "Experimental Test-bed for Computation Offloading for Cooperative Inference on Edge Devices"
+    - title: "Experimental Test-bed for Computation Offloading [...] on Edge Devices"
+    # - title: "Experimental Test-bed for Computation Offloading for Cooperative Inference on Edge Devices"
       authors: N Bovee, S Piccolo, SS Ho, N Wang
       conference: SEC, 2023
       link: https://dl.acm.org/doi/abs/10.1145/3583740.3626814
