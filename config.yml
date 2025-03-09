@@ -17,10 +17,12 @@ params:
     image: /images/profile.png  # path or link to the open graph image
   # Style
   dateFormat: 2006-01-02    # date format
-  themeColor: "#A32CC4"     # your favorite theme color
-  # Green - "#03962b" 
-  # Purple - 
+  themeColor: "#8D27A9"     # your favorite theme color
+  # Green - "#03962b" - WCAG AAA large contrast = 038726
+  # Purple - "#A32CC4"  - WCAG AAA contrast = 8D27A9
+  # Orange - "#FF5C00" - WCAG AAA large contrast = CC4B00
   contactDelimiter: "·"     # contact delimiter, '·', '/' or '|'
+  bodyDelimiter: "·"     # body delimiter, '·', '/' or '|'
   sectionIcon: true         # section title icon, 'true' or 'false'
   sectionTitle: uppercase   # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
   sectionAlign: start       # section title align, 'start', 'end' or 'center'
