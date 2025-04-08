@@ -5,7 +5,7 @@ meta:
 basic:
   name: Nicholas Bovee                      # name
   title: Software Engineer       # job title
-  description: Backend, Robotics, AI
+  description: AI, Platforms, Robotics
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
@@ -114,29 +114,30 @@ experience:
   items:
     - company: Rowan University CS Department
       link: 
-      tags: NSF Grant
-      date: 2021 - Current
+      tags:
+      date: 2022 - Current
       role: Machine Learning Engineer
       location: Glassboro, NJ
       description: |
         * Research **edge computing** power & latency optimization strategies
         * Lead five member research team on techniques on **split computation AI** models
-        * Created **SplitTracr** FOSS package to split & profile **PyTorch** models
+        * Create **SplitTracr** framework to split & profile **PyTorch** models
           * Used to adjust performance of CNN, YOLO & Transformer architectures in operation
-        * Design of mobile dual arm robot in **Nvidia Isaac/ROS 2** for VLM & action policy evaluation
+        * Design mobile bimanual robot in **Nvidia Isaac/ROS 2** for VLM & action policy evaluation
         * Technical Lead during I-Corps regional startup incubator for **precision agriculture**
 
     - company: Rowan University College of Engineering 
       link: 
       tags: 
       date: 2018 - Current
-      role: Engineering Specialist I & II
+      role: Specialist Engineer II & III
       location: Glassboro, NJ
       description: |
-        * Fullstack development of internal **ERP** system with 400 users
-          * Built with **Django**, PostgreSQL, Docker, Kubernetes
+        * Product owner of internal **ERP** system with 400 users
+          * Fullstack with **Django**, PostgreSQL, Docker, Kubernetes
         * Lead internal Engineering Github group on DevOps workflows & **CI/CD** practices
-        * Design, engineer, & fabricate equipment for specialized engineering projects 
+          * Coordinate integrations & deployments with other University product teams
+        * Design, engineer, & fabricate specialized embedded equipment 
           * Includes **embedded IoT**, submersible ROV, & drone systems
         * Manage Physical Prototyping Lab's additive & subtractive **manufacturing** operations
         * **Mentor** over twelve student employees across Engineering departments
@@ -150,28 +151,41 @@ experience:
       description: |
         * Designed automated assembly, **robotic** extraction, & vision inspection installations
 
-    - company: iRobot Corporation
-      link: 
-      tags: 
-      date: 2014, 2015
-      role: Mechanical Engineering Intern
-      location: Bedford, MA
-      description:
+    # - company: iRobot Corporation
+    #   link: 
+    #   tags: 
+    #   date: 2014, 2015
+    #   role: Mechanical Engineering Intern
+    #   location: Bedford, MA
+    #   description:
 
-    - company: General Dynamics Missions Systems
-      link:
-      tags: Secret Clearance
-      date: 2013
-      role: Systems Engineering Intern
-      location: Waltham, MA
-      description:
+    # - company: General Dynamics Missions Systems
+    #   link:
+    #   tags: Secret Clearance
+    #   date: 2013
+    #   role: Systems Engineering Intern
+    #   location: Waltham, MA
+    #   description:
 
 project:
   show: true
   order: 5
-  title: Personal Projects
+  title: Projects
   description:     
   items:
+    # - name: Genesis Engine
+    #   link:
+    #   tags: in dev
+    #   date: 2025
+    #   description: |
+    #     LLM tool in MLFlow & AWS Sagemaker for the generation of unique cards for Magic the Gathering
+    - name: Course Scheduling Chatbot
+      link:
+      tags: 
+      date: 2025
+      description: |
+        ReAct pattern with Claude, Llama Guard & secured tools; composed with **LangGraph**
+    # Custom CoT dataset & finetune, with objective metrics on the performance and recall.
     # - name: Engineering Training & Resources Webpage
     #   link: https://etr.rowan.edu
     #   tags: Rowan
@@ -187,18 +201,18 @@ project:
     #   date: 2023 - 2025
     #   description: |
     #     FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
-    - name: Movie Night Microservices
-      link: https://github.com/nbovee/movie-runoff
+    - name: Movie Night Tools
+      # link: https://github.com/nbovee/movie-runoff
       tags: 
       date: 2024 - 2025
       description: |
-        **Google Cloud**, REST, **gRPC**, Go & Python microservices to handle preference voting
-    - name: Food Bank & Pantry Local Inventory System
-      link: https://github.com/nbovee/shop-inventory
+        Google Cloud, **gRPC** microservices to handle suggestion, collation, & voting
+    - name: Food Bank Inventory System
+      # link: https://github.com/nbovee/shop-inventory
       tags: 
       date: 2024 - 2025
       description: |
-        Multi-device checkout system on captive portal, pre-compiled with **pi-gen** due to WAN restriction 
+        Multi-device inventory & checkout system on WLAN, pre-compiled with **pi-gen** 
     # - name: Rowan Hydra Robot
     #   link: 
     #   tags: NSF Grant
@@ -226,31 +240,34 @@ skill:
         - Python
         - Go
         - Rust
-        - Java
+        # - Java
+        - C++
         - Node.js
         - PyTorch
         - Django
         - Pandas
-        - GCP
+        # - MLFlow
+        - Langchain
+        - Elasticsearch
+
     - name:
       item:
         - Linux
-        - ROS
+
         - Docker
         - Kubernetes
-        - PlatformIO
-        - Marlin
+        - GCP
+        - AWS
+        - ROS
+        - Klipper
         - Git
         - OpenCV
-    - name:
-      item:
-        - Solidworks
+        # - PlatformIO
+        # - Solidworks
         - Fusion360
         - Altium
         - KiCad
-        - Rapid Prototyping
-        - 3D Printing
-
+      #  - Embedded Devices
 education:
   show: true
   order: 2
@@ -290,7 +307,7 @@ certificate:
 publication:
   show: true
   order: 3
-  title: Latest Publications
+  title: Publications
   description:
   items:
     - title: "SplitTracr: A Flexible Performance Evaluation Tool for [...] Split Computing"
@@ -361,11 +378,17 @@ interest:
       link: 
     - item: Custom Keyboards
       link:
-    - item: Classic Arcade Hardware
+    - item: Classic Arcades
       link:   
-    - item: Street Fighter
+    - item: 3D Printing
+      link:
     - item: Homelab
-
+      link:
+    - item: Horology
+      link:
+    - item: M:TG
+    # Eagle Scout
+    # License Drone Pilot
 evaluation:
   show: false
   order: 13
