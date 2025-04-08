@@ -4,8 +4,13 @@ meta:
 
 basic:
   name: Nicholas Bovee                      # name
+<<<<<<< HEAD
   # title: Software Engineer       # job title
   # description: AI & Platforms
+=======
+  title: Software Engineer       # job title
+  description: AI, Platforms, Robotics
+>>>>>>> d617bb0 (Cumulative Updates (#6))
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
