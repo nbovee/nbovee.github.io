@@ -121,7 +121,7 @@ experience:
       description: |
         * Research **edge computing** power & latency optimization strategies
         * Lead five member research team on techniques on **split computation AI** models
-        * Create **SplitTracr** FOSS package to split & profile **PyTorch** models
+        * Create **SplitTracr** framework to split & profile **PyTorch** models
           * Used to adjust performance of CNN, YOLO & Transformer architectures in operation
         * Design mobile bimanual robot in **Nvidia Isaac/ROS 2** for VLM & action policy evaluation
         * Technical Lead during I-Corps regional startup incubator for **precision agriculture**
@@ -151,21 +151,21 @@ experience:
       description: |
         * Designed automated assembly, **robotic** extraction, & vision inspection installations
 
-    - company: iRobot Corporation
-      link: 
-      tags: 
-      date: 2014, 2015
-      role: Mechanical Engineering Intern
-      location: Bedford, MA
-      description:
+    # - company: iRobot Corporation
+    #   link: 
+    #   tags: 
+    #   date: 2014, 2015
+    #   role: Mechanical Engineering Intern
+    #   location: Bedford, MA
+    #   description:
 
-    - company: General Dynamics Missions Systems
-      link:
-      tags: Secret Clearance
-      date: 2013
-      role: Systems Engineering Intern
-      location: Waltham, MA
-      description:
+    # - company: General Dynamics Missions Systems
+    #   link:
+    #   tags: Secret Clearance
+    #   date: 2013
+    #   role: Systems Engineering Intern
+    #   location: Waltham, MA
+    #   description:
 
 project:
   show: true
@@ -173,12 +173,18 @@ project:
   title: Projects
   description:     
   items:
-    - name: Genesis Engine
+    # - name: Genesis Engine
+    #   link:
+    #   tags: in dev
+    #   date: 2025
+    #   description: |
+    #     LLM tool in MLFlow & AWS Sagemaker for the generation of unique cards for Magic the Gathering
+    - name: Course Scheduling Chatbot
       link:
-      tags: in dev
+      tags: 
       date: 2025
       description: |
-        LLM tool in MLFlow & AWS Sagemaker for the generation of unique cards for Magic the Gathering
+        ReAct pattern with Claude, Llama Guard & secured tools; composed with **LangGraph**
     # Custom CoT dataset & finetune, with objective metrics on the performance and recall.
     # - name: Engineering Training & Resources Webpage
     #   link: https://etr.rowan.edu
@@ -195,18 +201,18 @@ project:
     #   date: 2023 - 2025
     #   description: |
     #     FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
-    - name: Movie Night Democracy
-      link: https://github.com/nbovee/movie-runoff
+    - name: Movie Night Tools
+      # link: https://github.com/nbovee/movie-runoff
       tags: 
       date: 2024 - 2025
       description: |
-        **Google Cloud**, REST, **gRPC**, Go & Python microservices to handle preference voting
-    - name: Food Bank & Pantry Local Inventory System
-      link: https://github.com/nbovee/shop-inventory
+        Google Cloud, **gRPC** microservices to handle suggestion, collation, & voting
+    - name: Food Bank Inventory System
+      # link: https://github.com/nbovee/shop-inventory
       tags: 
       date: 2024 - 2025
       description: |
-        Multi-device checkout system on captive portal, pre-compiled with **pi-gen** due to WAN restriction 
+        Multi-device inventory & checkout system on WLAN, pre-compiled with **pi-gen** 
     # - name: Rowan Hydra Robot
     #   link: 
     #   tags: NSF Grant
@@ -234,28 +240,30 @@ skill:
         - Python
         - Go
         - Rust
-        - Java
+        # - Java
         - C++
         - Node.js
         - PyTorch
         - Django
         - Pandas
-        - GCP
-        - AWS
-        - MLFlow
+        # - MLFlow
         - Langchain
         - Elasticsearch
-        - Linux
-        - ROS
+
     - name:
       item:
+        - Linux
+
         - Docker
         - Kubernetes
+        - GCP
+        - AWS
+        - ROS
         - Klipper
         - Git
         - OpenCV
-        - PlatformIO
-        - Solidworks
+        # - PlatformIO
+        # - Solidworks
         - Fusion360
         - Altium
         - KiCad
