@@ -5,7 +5,7 @@ meta:
 basic:
   name: Nicholas Bovee                      # name
   title: Software Engineer       # job title
-  description: AI, Platforms, Robotics
+  description: AI & Platforms
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
@@ -26,7 +26,7 @@ contact:
   # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
 
   # programming
-  github:                   nbovee
+  github:                   # nbovee
   gitlab:                   # https://gitlab.com/<username>
   bitbucket:                # https://bitbucket.com/<username>
   git:                      # selfhost git site link without schema "https://"
@@ -61,7 +61,7 @@ contact:
   producthunt:              # https://www.producthunt.com/@<username>
 
   # cv
-  linkedin:                 nicholas-bovee
+  linkedin:                 # nicholas-bovee
   indeed:                   # https://my.indeed.com/p/<id>
   xing:                     # https://www.xing.com/profile/<username>
   fiverr:                   # https://www.fiverr.com/<username>
@@ -112,35 +112,43 @@ experience:
   title: Experience
   description:
   items:
-    - company: Rowan University CS Department
+    - company: Rowan University
       link: 
       tags:
       date: 2022 - Current
-      role: Machine Learning Engineer
+      role: Research AI Engineer
       location: Glassboro, NJ
       description: |
-        * Research **edge computing** power & latency optimization strategies
-        * Lead five member research team on techniques on **split computation AI** models
-        * Create **SplitTracr** framework to split & profile **PyTorch** models
-          * Used to adjust performance of CNN, YOLO & Transformer architectures in operation
-        * Design mobile bimanual robot in **Nvidia Isaac/ROS 2** for VLM & action policy evaluation
-        * Technical Lead during I-Corps regional startup incubator for **precision agriculture**
-
-    - company: Rowan University College of Engineering 
+        * Edge AI deployment optimization, with 4 publications (+2 pending)
+        * Develop containerized **framework** for computational offloading & profiling
+        * Lead 4-6 member team on machine learning for dynamic **split computation**
+        * Design mobile bimanual robot in for VLM & action policy evaluation
+        * Technical Lead during I-Corps regional **startup incubator**
+    - company: Rowan University
       link: 
       tags: 
-      date: 2018 - Current
-      role: Specialist Engineer II & III
+      date: 2022 - Current
+      role: Senior Staff Engineer
       location: Glassboro, NJ
       description: |
-        * Product owner of internal **ERP** system with 400 users
-          * Fullstack with **Django**, PostgreSQL, Docker, Kubernetes
-        * Lead internal Engineering Github group on DevOps workflows & **CI/CD** practices
-          * Coordinate integrations & deployments with other University product teams
-        * Design, engineer, & fabricate specialized embedded equipment 
-          * Includes **embedded IoT**, submersible ROV, & drone systems
-        * Manage Physical Prototyping Lab's additive & subtractive **manufacturing** operations
-        * **Mentor** over twelve student employees across Engineering departments
+        * Lead developer & owner of Engineering **ERP** cloud system
+        * Design, integrate, & scale requested features & services from customers
+        * Head internal Engineering group on DevOps workflows & **CI/CD** practices
+        * Review PRs & enforce best practice system design & documentation
+#        * Design, engineer, & fabricate specialized **embedded IoT** equipment 
+#        * Oversee Prototyping Lab's fabrication & assembly operations
+#        * **Mentor** over twelve student employees across Engineering departments
+
+    - company: Rowan University
+      link: 
+      tags: 
+      date: 2018 - 2022
+      role: Staff Engineer
+      location: Glassboro, NJ
+      description: |
+        * Design, engineer, & fabricate specialized **embedded IoT** equipment 
+        * Oversee Prototyping Lab's fabrication & assembly operations
+#        * **Mentor** over twelve student employees across Engineering departments
 
     - company: Ernie Green Industries
       link: 
@@ -149,7 +157,7 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        * Designed automated assembly, **robotic** extraction, & vision inspection installations
+        * Design robotic **inspection**, assembly, & extraction installations
 
     # - company: iRobot Corporation
     #   link: 
@@ -179,12 +187,12 @@ project:
     #   date: 2025
     #   description: |
     #     LLM tool in MLFlow & AWS Sagemaker for the generation of unique cards for Magic the Gathering
-    - name: Course Scheduling Chatbot
+    - name: Course Scheduling RAG Agent
       link:
       tags: 
       date: 2025
       description: |
-        ReAct pattern with Claude, Llama Guard & secured tools; composed with **LangGraph**
+        LLM **RAG** chatbot, using hybrid **vector database** retrieval & secured tools
     # Custom CoT dataset & finetune, with objective metrics on the performance and recall.
     # - name: Engineering Training & Resources Webpage
     #   link: https://etr.rowan.edu
@@ -201,18 +209,26 @@ project:
     #   date: 2023 - 2025
     #   description: |
     #     FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
-    - name: Movie Night Tools
+    - name: Movie Night Voting Site
       # link: https://github.com/nbovee/movie-runoff
       tags: 
-      date: 2024 - 2025
+      date: 2025
       description: |
         Google Cloud, **gRPC** microservices to handle suggestion, collation, & voting
-    - name: Food Bank Inventory System
-      # link: https://github.com/nbovee/shop-inventory
-      tags: 
-      date: 2024 - 2025
+    # - name: Food Bank Inventory System
+    #   # link: https://github.com/nbovee/shop-inventory
+    #   tags: 
+    #   date: 2024
+    #   description: |
+    #     Multi-device inventory & checkout system on offline WLAN, pre-compiled with **pi-gen**
+    - name: Reinforment Learning of Game Training Partners
+      date: 2023
       description: |
-        Multi-device inventory & checkout system on WLAN, pre-compiled with **pi-gen** 
+        Trained **A3C Actor-Critic** agents to learn human reaction time & behaviors
+    - name: Zero Shot DNN Behavioral Evaluation
+      date: 2022
+      description: |
+        Experimental **zero shot learning** segmented classifier for bird species
     # - name: Rowan Hydra Robot
     #   link: 
     #   tags: NSF Grant
@@ -238,36 +254,46 @@ skill:
     - name:
       item:
         - Python
-        - Go
+        - Golang
         - Rust
+        - TypeScript
         # - Java
-        - C++
-        - Node.js
+        # - C++
+        # - Node.js
         - PyTorch
-        - Django
-        - Pandas
-        # - MLFlow
-        - Langchain
-        - Elasticsearch
-
-    - name:
-      item:
         - Linux
-
         - Docker
         - Kubernetes
+        # - MLFlow
+    - name:
+      item:
+        - LangChain
+        - LangGraph
+        - DSPy
         - GCP
         - AWS
+        - Github Actions
+        - Gitlab CI        
         - ROS
-        - Klipper
-        - Git
-        - OpenCV
+        # - Klipper
+        # - Elasticsearch
         # - PlatformIO
         # - Solidworks
-        - Fusion360
-        - Altium
-        - KiCad
-      #  - Embedded Devices
+        # - Fusion360
+        # - Altium
+        # - KiCad
+        # - Embedded Devices
+    - name:
+      item:
+        - FastAPI
+        - Django
+        - PostgreSQL
+        # - Git
+        - OpenCV
+        - Pandas 
+        - gRPC
+        - Whatever it takes
+
 education:
   show: true
   order: 2
@@ -278,8 +304,8 @@ education:
       link: 
       date: 2023
       major: Computer Science
-      # gpa: "**3.94**"
-      degree: Master of Science
+      gpa: #"**3.94**"
+      degree: MS
       description: |
         * Outstanding Graduate Award & Upsilon Pi Epsilon member
         
@@ -288,7 +314,7 @@ education:
       date: 2015
       major: Mechanical Engineering
       gpa:
-      degree: Bachelor of Science
+      degree: BS
       description:
 
 certificate:
@@ -310,19 +336,20 @@ publication:
   title: Publications
   description:
   items:
-    - title: "SplitTracr: A Flexible Performance Evaluation Tool for [...] Split Computing"
+    - title: "SplitTracr: A Flexible Performance Evaluation Tool [...]"
     # - title: "SplitTracr: A Flexible Performance Evaluation Tool for Cooperative Inference and Split Computing"
       authors: N Bovee, I Ali, G Patapanchala, S Bitla, SS Ho
-      conference: Accepted for ICPE, 2025
+      tag: pre-print
+      conference: ICPE, 2025
     # - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit [...] on the Edge"
     # - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
     #   authors: N Bovee, S Piccolo, GK Patapanchala, SS Ho
     #   conference: ICFEC, 2024
     #   link: https://ieeexplore.ieee.org/abstract/document/10707214/
-    - title: "Computation Offloading for Precision Agriculture using Cooperative Inference"
+    - title: "Computation Offloading for Precision Agriculture [...]"
       authors: S Bitla, K Patapanchala, N Bovee, PR Sanchez, SS Ho
       conference: ICFEC, 2024
-      link: https://ieeexplore.ieee.org/abstract/document/10707172/
+      # link: https://ieeexplore.ieee.org/abstract/document/10707172/
     # - title: "Experimental Test-bed for Computation Offloading [...] on Edge Devices"
     # - title: "Experimental Test-bed for Computation Offloading for Cooperative Inference on Edge Devices"
     #  authors: N Bovee, S Piccolo, SS Ho, N Wang
@@ -369,12 +396,12 @@ language:
       level: Native
 
 interest:
-  show: true
+  show: false
   order: 12
   title: Interests
   description:
   items:
-    - item: Tabletop Game Design
+    - item: Tabletop Games
       link: 
     - item: Custom Keyboards
       link:
@@ -382,11 +409,11 @@ interest:
       link:   
     - item: 3D Printing
       link:
-    - item: Homelab
-      link:
+    # - item: Homelab
+    #   link:
     - item: Horology
-      link:
-    - item: M:TG
+    #   link:
+    # - item: M:TG
     # Eagle Scout
     # License Drone Pilot
 evaluation:
