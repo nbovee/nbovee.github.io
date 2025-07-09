@@ -61,7 +61,7 @@ contact:
   producthunt:              # https://www.producthunt.com/@<username>
 
   # cv
-  linkedin:                 # nicholas-bovee
+  linkedin:                 nickbovee
   indeed:                   # https://my.indeed.com/p/<id>
   xing:                     # https://www.xing.com/profile/<username>
   fiverr:                   # https://www.fiverr.com/<username>
@@ -114,7 +114,7 @@ experience:
     - company: Rowan University, College of Engineering
       link: 
       tags: 
-      date: March 2022 - Current
+      date: November 2021 - Current
       role: Senior Staff Engineer
       location: Glassboro, NJ
       description: |
@@ -152,7 +152,7 @@ experience:
     - company: Ernie Green Industries
       link: 
       tags: 
-      date: December 2015 - September 2017
+      date: December 2015 - August 2017
       role: Automation Engineer
       location: Rochester, NY
       description: |
@@ -258,6 +258,11 @@ project:
     #   date: 2022 - 2023
     #   description: |
     #     IP68 compliant ROV based on Raspberry Pi 4, **custom PCB**, wireless RC, IP camera
+
+    # Other Projects that we can consider fallen off
+    # Automated Fan Degating
+    # Automotive part inspection
+    # Medical part assembly inspection
 
 skill:
   show: true
@@ -390,13 +395,16 @@ certificate:
   order: 6
   title: Certificates
   description: 
-
   items:
     - name: SOLIDWORKS CAD Design Associate (CSWA)
       issuer: Dassault Systèmes 
       date: 2010
       link:
-      description:
+      description: C-BY4UQQ9ZTR
+    - name: Remote Pilot
+      issuer: FAA
+      date: 2025
+      description: Certificate NO. Pending
 
 publication:
   show: true
@@ -405,15 +413,10 @@ publication:
   description:
   items:
     - title: "SplitTracr: A Flexible Performance Evaluation Tool for Cooperative Inference and Split Computing"
-    # - title: "SplitTracr: A Flexible Performance Evaluation Tool for Cooperative Inference and Split Computing"
       authors: N Bovee, I Ali, G Patapanchala, S Bitla, SS Ho
       tag: Proceedings
       conference: ICPE
       date: 2025
-    # - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit [...] on the Edge"
-    # - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
-    #   authors: N Bovee, S Piccolo, GK Patapanchala, SS Ho
-    #   conference: ICFEC, 2024
     #   link: https://ieeexplore.ieee.org/abstract/document/10707214/
     - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
       authors: N Bovee, S Bitla, GK Patapanchala, SS Ho
@@ -426,8 +429,6 @@ publication:
       conference: ICFEC
       date: 2024
       # link: https://ieeexplore.ieee.org/abstract/document/10707172/
-      # link: https://ieeexplore.ieee.org/abstract/document/10707172/
-    # - title: "Experimental Test-bed for Computation Offloading [...] on Edge Devices"
     - title: "Experimental Test-bed for Computation Offloading for Cooperative Inference on Edge Devices"
       authors: N Bovee, S Piccolo, SS Ho, N Wang
       tag: Proceedings
