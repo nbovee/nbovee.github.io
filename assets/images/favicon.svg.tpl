@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <style>
     .favicon-bg {
-      <!-- fill: #8D27A9; -->
       fill: oklch(1 0 0);
     }
     .favicon-text {
@@ -11,11 +10,10 @@
       font-size: 18px;
     }
     .favicon-ul {
-      fill: oklch(0.490 0.203 317.8);
+      fill: {{ .Site.Params.themeColor }};
     }
   </style>
   <rect class="favicon-bg" width="32" height="32" rx="6"/>
-  <text class="favicon-text" x="16" y="22" text-anchor="middle">NB</text>
-    <rect class="favicon-ul" width="23.5" height="2.5" x="4.5" y="24"/>
-
+  <text class="favicon-text" x="16" y="22" text-anchor="middle">{{ substr .Site.Data.data.basic.name 0 1 }}{{ substr (index (split .Site.Data.data.basic.name " ") 1) 0 1 }}</text>
+  <rect class="favicon-ul" width="23.5" height="2.5" x="4.5" y="24"/>
 </svg>
