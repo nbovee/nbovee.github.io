@@ -17,17 +17,22 @@ params:
     image: /images/profile.png  # path or link to the open graph image
   # Style
   dateFormat: 2006-01-02    # date format
-  themeColor: "#8D27A9"     # your favorite theme color
-  # Green - "#03962b" - WCAG AAA large contrast = 038726
-  # Purple - "#A32CC4"  - WCAG AAA contrast = 8D27A9
-  # Orange - "#FF5C00" - WCAG AAA large contrast = CC4B00
+  themeColor: "oklch(0.490 0.203 317.8)" #8D27A9 # your favorite theme color in OKLCH format
+  themeColorDark: "#CC7ED1" # theme color for dark mode
+  # other colors I liked
+  # Green - "oklch(0.586 0.181 145.4)" #03962b
+  #   WCAG AAA large contrast = oklch(0.542 0.168 145.4) #038726
+  # Purple - "oklch(0.544 0.230 317.6)" #A32CC4
+  #   WCAG AAA contrast = oklch(0.490 0.203 317.8) #8D27A9
+  # Orange - "oklch(0.684 0.212 40.6)" #FF5C00
+  #   WCAG AAA large contrast = oklch(0.582 0.177 41.7) #CC4B00
   contactDelimiter: "·"     # contact delimiter, '·', '/' or '|'
   bodyDelimiter: "·"     # body delimiter, '·', '/' or '|'
   sectionIcon: true         # section title icon, 'true' or 'false'
   sectionTitle: uppercase   # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
   sectionAlign: start       # section title align, 'start', 'end' or 'center'
   sectionLine: dashed       # section title line, 'solid', 'dashed' or 'none'
-  sectionBackground: true   # section title backound, 'true' or 'false'
+  sectionBackground: true   # section title background, 'true' or 'false'
   skillLevelIcon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
   linkIcon: true            # show link icon, 'true' or 'false'
   siteCredit: true          # show site footer, 'true' or 'false'

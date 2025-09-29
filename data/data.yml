@@ -11,10 +11,10 @@ basic:
     path: /images/profile.png        # file path or link to your avatar
 
 contact:
-  location: New Jersey      # location, text or markdown link syntax
-  email:                    contact@nicholas.bov.ee # email address
+  location: New Jersey, USA # location, text or markdown link syntax
+  email: contact@nicholas.bov.ee # email address
   phone:                    # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website:                  # site link without schema, like example.com, will automatically prepend "https://"
+  website: nick.bov.ee      # site link without schema, like example.com, will automatically prepend "https://"
 
   gender:                   # gender or pronoun
   birthday:                 # birthday
@@ -26,7 +26,7 @@ contact:
   # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
 
   # programming
-  github:                   nbovee
+  github: nbovee
   gitlab:                   # https://gitlab.com/<username>
   bitbucket:                # https://bitbucket.com/<username>
   git:                      # selfhost git site link without schema "https://"
