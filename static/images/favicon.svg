@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    .favicon-bg {
+      fill: #8D27A9;
+      fill: oklch(0.490 0.203 317.8);
+    }
+    .favicon-text {
+      fill: #ffffff;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .favicon-bg {
+        fill: #C084FC;
+        fill: oklch(0.750 0.203 317.8);
+      }
+      .favicon-text {
+        fill: #0f172a;
+      }
+    }
+  </style>
+  <rect class="favicon-bg" width="32" height="32" rx="6"/>
+  <text class="favicon-text" x="16" y="22" text-anchor="middle">N</text>
+</svg>
