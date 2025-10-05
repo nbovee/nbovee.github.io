@@ -37,7 +37,7 @@ contact:
   - key: website
     value: nick.bov.ee
     link: https://%s
-    icon: fa-solid fa-fw  fa-link
+    icon: fa-solid fa-fw fa-link
   - key: github
     value: nbovee
     link: https://github.com/%s
