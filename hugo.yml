@@ -28,7 +28,7 @@ params:
   llmHeader: true                        # add a comment to guide llms
   openGraph:
     enable: true                          # enable open graph meta tags
-    image: /images/profile.png            # path or link to the open graph image
+    image: images/profile.png            # path or link to the open graph image
   dateFormat: 2006-01-02                  # date format
   themeColor: "oklch(0.6 0.181 145.4)" #"oklch(0.490 0.203 317.8)"  # your favorite theme color in OKLCH format
   # other colors I liked
