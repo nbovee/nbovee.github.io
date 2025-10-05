@@ -1,0 +1,58 @@
+baseURL:
+disableKinds: [section, taxonomy, term, RSS, sitemap, 404]
+enableRobotsTXT: true
+
+title: Nicholas Bovee
+theme: bot-ready-resume
+
+markup/goldmark/renderer/unsafe: false # there is probably a way to do what you want that is hugo compliant
+
+outputFormats:
+  markdown:
+    mediaType: text/markdown
+    baseName: index
+    isPlainText: true
+  llmstxt:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+
+outputs:
+  home: [HTML, markdown, llmstxt]
+
+params:
+  open: true
+  allowSearchEngines: true
+  description: Accomplished engineer with interdisciplinary experience in software & hardware
+  llms.txt: true                          # publish llms.txt
+  llmHeader: true                        # add a comment to guide llms
+  openGraph:
+    enable: true                          # enable open graph meta tags
+    image: /images/profile.png            # path or link to the open graph image
+  dateFormat: 2006-01-02                  # date format
+  themeColor: "oklch(0.6 0.181 145.4)" #"oklch(0.490 0.203 317.8)"  # your favorite theme color in OKLCH format
+  # other colors I liked
+  # Green - "oklch(0.586 0.181 145.4)" #03962b
+  #   WCAG AAA large contrast = oklch(0.542 0.168 145.4) #038726
+  # Purple - "oklch(0.544 0.230 317.6)" #A32CC4
+  #   WCAG AAA contrast = oklch(0.490 0.203 317.8) #8D27A9
+  # Orange - "oklch(0.684 0.212 40.6)" #FF5C00
+  #   WCAG AAA large contrast = oklch(0.582 0.177 41.7) #CC4B00
+  contactDelimiter: "·"                   # contact delimiter, '·', '/' or '|'
+  bodyDelimiter: "·"                      # body delimiter, '·', '/' or '|'
+  sectionIcon: true        
+  sectionTitle: uppercase                 # 'uppercase', 'lowercase', 'capitalize' or 'none'
+  sectionAlign: start                     # start', 'end' or 'center'
+  sectionLine: dashed                     # 'solid', 'dashed' or 'none'
+  sectionBackground: true   
+  skillLevelIcon: lightbulb               # 'heart', 'star', 'circle' or 'lightbulb'
+  linkIcon: true            
+  siteCredit: true          
+  
+  analytics:
+    google:               
+    cloudflare:             
+    umami:                 
+      script:
+      websiteID:
+      domains:
