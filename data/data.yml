@@ -48,53 +48,41 @@ contact:
   #   icon: fa-brands fa-fw fa-linkedin
 
 profile:
-  show: false
+  show: true
   order: 1
   title: Profile
   description: |
-    Computer Scientist & Mechanical Engineer experienced in robotics, full-stack development, and fabrication.
+    Computer Scientist & Mechanical Engineer specializing in AI/ML, robotics, autonomy, and end-to-end systems.
 experience:
   show: true
   order: 3
   title: Experience
   description:
   items:
-    - company: Henry M. Rowan College of Engineering
-      tags:
-      date: Nov 2021 - Present
+    - company: Rowan University, College of Engineering
+      tags: Promoted 2021
+      date: Feb 2018 - Present
       role: Senior Engineer
       location: Glassboro, NJ
       description: |
-        - Lead initiative to develop efficient **full-stack** software solution to Engineering's operational problems. 
-        - Admin of Engineering Git repositories. Standardized and enforced CICD, code quality, and **AI integrations**.
-        - Collaborated with cross-functional teams to deploy customized **microservices** and workflows.
-        - Designed, tested, and fabricated custom embedded **hardware** for unique research applications.
-        - Oversee **fabrication** centers in HMRCoE, balancing advanced manufacturing with undergraduate support.
-      
-    - company: Rowan University, Vehicular Edge AI Grant
+        - Lead full-stack development enforcing CICD, code quality, and **AI-driven** development integrations.
+        - Architect and deploy **microservices** and automation workflows across cross-functional teams.
+        - Design, test, and fabricate custom end-to-end installations for specialized research applications.
+        - Manage fabrication facilities and advanced manufacturing infrastructure supporting research operations.
+        - Customize **embedded firmware** for 3D printer farms enforcing validated settings and status tracking.
+
+    - company: Rowan University, Computer Science
       link:
-      tags: 
+      tags: Concurrent Role
       date: Feb 2022 - Dec 2025
       role: ML & AI Engineer
       location: Glassboro, NJ
       description: |
-        - Architected **MLOps** platform with zero-deploy for efficient allocation and monitoring of AI workloads.
-        - Technical Lead for team at NSF regional I-Corps, deploying ML models in crop life-cycle applications.
-        - Led **10 member** team to rapidly prototype AI research, mentoring of junior engineers.
-        - Design and integrate bi-manual SO-100 arms into robotic platform for **VLM** training and evaluation.
-      # - Containerized **ROS2** in Docker to maintain consistent dependencies across edge-devices in robotic vehicles.
-      # - Achieved **7%** inference speed improvement through profiling and optimization on embedded hardware.
-        
-    - company: Henry M. Rowan College of Engineering
-      link:
-      tags:
-      date: Feb 2018 - Feb 2022
-      role: Associate Engineer
-      location: Glassboro, NJ
-      description: |
-        - Customized **embedded firmware** of 3D printer farms to require validated printer settings & custom statuses.
-        - Optimize engineering equipment utilization across 40 sections of engineering education.
-        - Delivered annual training sessions to 120+ students on safe operating procedure for industrial equipment.
+        - Architect **MLOps** platform with zero-touch deployment for efficient AI workload monitoring.
+        - Technical Lead at **NSF I-Corps**, deploying ML models for precision agriculture applications.
+        - Lead 10-member AI research team, achieving 7% **edge inference** gains through profiling and optimization.
+        - Integrate bi-manual SO-100 arms into robotic platform for **VLM** training and evaluation.
+        - Containerize **ROS2** in Docker to maintain consistent dependencies across edge devices in robotic vehicles.
     
     - company: Ernie Green Industries
       link: 
@@ -103,8 +91,7 @@ experience:
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        - Developed **Computer Vision** units to supplement qualified processes, with $171k annual savings per install.
-        - Delivered critical onsite PLC & **robotics** integrations at international company sites.
+        - Deploy **Computer Vision** and robotics systems for quality control, achieving $171k annual savings.
       
     - company: iRobot Corporation
       link: 
@@ -184,6 +171,12 @@ skill:
         - Github/Gitlab CICD
         - gRPC
         - React
+    # - name: Fabrication & Hardware
+    #   item:
+    #     - Additive Manufacturing
+    #     - CAD
+    #     - PCB Design & Prototyping
+    #     - Rapid Prototyping
 
 education:
   show: true
@@ -199,7 +192,7 @@ education:
       gpa: "**3.94**"
       degree: Master of Science
       description: |
-        **Upsilon Pi Epsilon** 2022 & **Outstanding Graduate** Award 2023
+        **Upsilon Pi Epsilon** 2022 & Outstanding Graduate Award 2023
         
     - institution: Rochester Institute of Technology
       link:
@@ -259,12 +252,12 @@ publication:
       tags: Personal
       date: Apr 2025
       description: |
-        **RAG agent** to aid students in navigation of University services. Vector database & guarded tools for reliability.
+        Build **RAG** agent for University services navigation with vector database and guarded tool reliability.
     - title: Rowan Pantry Management System
       tags: Hunger Free Campus Initiative
       date: May 2024
       description: |
-        Developed a robust & offline pantry management system, with exportable KPIs.
+        Develop offline pantry management system with exportable KPIs for Hunger Free Campus Initiative.
     - title: "Experimental Test-bed for Computation Offloading [...] on Edge Devices"
       authors: N Bovee, S Piccolo, SS Ho, N Wang
       tag: Proceedings
@@ -276,7 +269,7 @@ publication:
       tags: MS - Machine Learning II
       date: May 2023
       description: |
-        Evaluate capability of **Reinforcement Learning** trained AI restricted with human limitations.
+        Train **Reinforcement Learning** agents as fighting game opponents with human-constrained mechanics.
 
 award:
   show: false
