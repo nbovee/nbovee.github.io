@@ -28,165 +28,127 @@ close:
 
 contact:
   - key: location
-    value: New Jersey, USA
+    value: Voorhees New Jersey, USA
     icon: fa-solid fa-fw fa-location-dot
   - key: email
     value: contact@nicholas.bov.ee
     icon: fa-solid fa-fw fa-envelope
     link: mailto:%s
-  - key: website
-    value: nick.bov.ee
-    link: https://%s
-    icon: fa-solid fa-fw fa-link
-  - key: github
-    value: nbovee
-    link: https://github.com/%s
-    icon: fa-brands fa-fw fa-github
-  - key: linkedin
-    value: nickbovee
-    link: https://linkedin.com/in/%s
-    icon: fa-brands fa-fw fa-linkedin
+  # - key: website
+  #   value: nick.bov.ee
+  #   link: https://%s
+  #   icon: fa-solid fa-fw fa-link
+  # - key: github
+  #   value: nbovee
+  #   link: https://github.com/%s
+  #   icon: fa-brands fa-fw fa-github
+  # - key: linkedin
+  #   value: nickbovee
+  #   link: https://linkedin.com/in/%s
+  #   icon: fa-brands fa-fw fa-linkedin
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Profile
   description: |
-    ML Engineer experienced in full-stack AI; including vision, edge, & robotics domain knowledge. Proven track record of creating impactful tools. Seeking opportunities to build impactful ML&AI in unique engineering environments.
+    Computer Scientist & Mechanical Engineer experienced in robotics, full-stack development, and fabrication.
 experience:
   show: true
-  order: 1
+  order: 3
   title: Experience
   description:
   items:
-    - company: Rowan University, CS Vehicles Grant
+    - company: Henry M. Rowan College of Engineering
+      tags:
+      date: Nov 2021 - Present
+      role: Senior Engineer
+      location: Glassboro, NJ
+      description: |
+        - Lead initiative to develop efficient **full-stack** software solution to Engineering's operational problems. 
+        - Admin of Engineering Git repositories. Standardized and enforced CICD, code quality, and **AI integrations**.
+        - Collaborated with cross-functional teams to deploy customized **microservices** and workflows.
+        - Designed, tested, and fabricated custom embedded **hardware** for unique research applications.
+        - Oversee **fabrication** centers in HMRCoE, balancing advanced manufacturing with undergraduate support.
+      
+    - company: Rowan University, Vehicular Edge AI Grant
       link:
-      tags: contract
-      date: February 2022 - Current
+      tags: 
+      date: Feb 2022 - Dec 2025
       role: ML & AI Engineer
       location: Glassboro, NJ
       description: |
-        - Led research cycles with **10 member** team to rapidly prototype and deploy AI solutions, mentoring on optimization of artificial intelligence and machine learning models.
-        - Architected production **MLOps** platform with **zero-deploy** framework supporting efficient allocation and monitoring of AI workloads on resource-constrained vehicular and edge platforms.
-        - Achieved **7%** inference speed improvement through performance profiling and optimization on embedded hardware, reducing energy consumption for sustainable edge deployments.
-        - Technical Lead for team at NSF regional I-Corps, deploying ML models for boutique crop life-cycle applications.
-        - Design and integrate bi-manual SO-100 arms into custom robot frame for hierarchical Vision Language Models.
-        - Containerized **ROS2** in Docker to maintain consistent dependencies across edge-devices in robotic vehicles.
-    - company: Rowan University, College of Engineering
+        - Architected **MLOps** platform with zero-deploy for efficient allocation and monitoring of AI workloads.
+        - Technical Lead for team at NSF regional I-Corps, deploying ML models in crop life-cycle applications.
+        - Led **10 member** team to rapidly prototype AI research, mentoring of junior engineers.
+        - Design and integrate bi-manual SO-100 arms into robotic platform for **VLM** training and evaluation.
+      # - Containerized **ROS2** in Docker to maintain consistent dependencies across edge-devices in robotic vehicles.
+      # - Achieved **7%** inference speed improvement through profiling and optimization on embedded hardware.
+        
+    - company: Henry M. Rowan College of Engineering
       link:
       tags:
-      date: November 2021 - Current
-      role: Senior Staff Engineer
+      date: Feb 2018 - Feb 2022
+      role: Associate Engineer
       location: Glassboro, NJ
       description: |
-        - Architect multidisciplinary engineering solutions integrating full-stack development, embedded systems, and DevOps practices for Engineering ERP services using Django, Docker, and Dragonfly, serving entire **2,000+** Engineering college.
-        - Lead development team in applying DevOps practices by integrating CI/CD checks for quality assurance in code submissions and revising system documentation across distributed micro services.
-        - Create CI/CD tooling pipelines for front-end and back-end testing using Gitlab CI and GitHub Actions, increasing pre-production bug detection by **38%** and reducing post-deployment issues by **21%** annually.
-        - Collaborate closely with teams from other disciplines to develop a flexible solutions for all stakeholders.
-        - Create compliant access management with CAS SSO and student ID cards to validate student training records when accessing industrial equipment.
-        - Feature rollout of 5,000-SKU inventory system with vendor **API integration**, accelerating throughput by **66%** and automating all inventory requests measured over 24 months.
-        - Develop automated part request management with integrated inventory tracking, tripling lab task throughput on over **2,500** high-touch tasks annually.
-    - company: Rowan University, College of Engineering
-      link:
-      tags:
-      date: February 2018 - February 2022
-      role: Staff Engineer
-      location: Glassboro, NJ
-      description: |
-        - Deployed recurring calibration schedule for **$500k+** of instrumentation, providing advanced lab capabilities.
-        - Rapid development of custom embedded devices to support individualized research needs.
-        - Managed **12** student employees to support simultaneous course operations across the College of Engineering.
-        - Optimize engineering equipment utilization across 40 sections of engineering education with only two engineers.
-        - Delivered annual training sessions to **120+** students on safe operating procedure for industrial equipment.
+        - Customized **embedded firmware** of 3D printer farms to require validated printer settings & custom statuses.
+        - Optimize engineering equipment utilization across 40 sections of engineering education.
+        - Delivered annual training sessions to 120+ students on safe operating procedure for industrial equipment.
+    
     - company: Ernie Green Industries
       link: 
       tags: 
-      date: December 2015 - August 2017
+      date: Dec 2015 - Aug 2017
       role: Automation Engineer
       location: Rochester, NY
       description: |
-        - Developed real-time image based defect identification that seamlessly integrated with existing processes.
-        - Engineer robotic end-effectors to decrease injection molding cycle times by an average of **17%**.
-        - Delivered critical onsite operational integration for PLC mold interlock logic installations at international locations.
-        - Implemented inspection systems, achieving **$171k** annual cost savings with defect reduction; ROI under **<4** months.
-
+        - Developed **Computer Vision** units to supplement qualified processes, with $171k annual savings per install.
+        - Delivered critical onsite PLC & **robotics** integrations at international company sites.
+      
+    - company: iRobot Corporation
+      link: 
+      tags: 
+      date: 2015
+      role: Mechanical Engineering Intern
+      location: Bedford, MA
+      description: 
+    
+    - company: General Dynamics Mission Systems
+      link: 
+      tags: 
+      date: 2013
+      role: Systems Engineering Intern
+      location: Pittsfield, MA
+      description: 
+ 
 project:
-  show: true
-  order: 6
-  title: Other Works
+  show: false # We have currently merged this with publications to get our printed form down to one page
+  order: 7
+  title: Projects and Publications
   description:  
   items:
-    # - name: Genesis Engine
-    #   link:
-    #   tags: in dev
-    #   date: 2025
-    #   description: |
-    #     LLM tool in MLFlow & AWS Sagemaker for the generation of unique cards for Magic the Gathering
     - name: Course Scheduling RAG Agent
       link:
-      tags: Internal Mockup
-      date: April 2025
+      tags: Personal
+      date: Apr 2025
       description: |
-        - Rapid prototype demonstrating **AI-first** development of production-ready **agentic RAG** system.
-        - Allowed for conversational control over student services, without direct user entry to underlying service.
-        - Built custom **prompt engineering** pipeline with **hybrid vector database** to support course discovery.
-        - **Agentic workflow** with secure API tools, multi-stage reasoning, validation & constraint satisfaction.
-        - Full observability with tracing for production debugging, error analysis, and fine-tuning pipeline.
-        - Input/output validation and monitoring to protect from malicious usage, hallucination, and identify user distress.
-        - Schedule validation tool calls enabled minimal context windows, reducing API costs while maintaining accuracy.
-    # Custom CoT dataset & finetune, with objective metrics on the performance and recall.
-    # - name: Engineering Training & Resources Webpage
-    #   link: https://etr.rowan.edu
-    #   tags: Rowan
-    #   date: 2023 - 2025
-    #   description: |
-    #     * ERP tool with 1600 users, using **Django**, PostgreSQL, Docker, SCSS, etc.
-    #     * Fullstack & **DevOps** for Kanban inventory, ticketing, maintenance, & safety training
-    #     * Reworked development process & **CI/CD** to quickly onboard junior developers
-
-    # - name: SplitTracr Python Package
-    #   link: https://github.com/nbovee/tracr
-    #   tags: NSF Grant
-    #   date: 2023 - 2025
-    #   description: |
-    #     FOSS package to rapidly partition & profile **PyTorch** models, including **YOLO**
-    # - name: Movie Night Voting Site
-    #   # link: https://github.com/nbovee/movie-runoff
-    #   tags: 
-    #   date: 2025
-    #   description: |
-    #     Google Cloud, **gRPC** microservices to handle suggestion, collation, & voting
-    - name: Food Bank Management System
-      # link: https://github.com/nbovee/shop-inventory
-      tags: Hunger Free Campus Grant
-      date: March 2024 - May 2024
+        - **RAG agent** to aid students in navigation of University services. Vector database & guarded tools for reliability.
+    - name: Rowan Pantry Management System
+      tags: Hunger Free Campus Initiative
+      date: Mar 2024 - May 2024
       description: |
-        - Developed a robust offline network for pantry operations, utilizing **Django** & **SQLite**, serving **6000** students.
-        - Integrated compatibility with UPC-A, UPC-E, and QR internal barcodes for digital asset tracking.
-        - Introduced intuitive user interfaces to help new staff navigate inventory verification of **1000+** SKUs seamlessly.
-        - Configured **embedded Linux** builds with **Pi-Gen**, ensuring system compliance and efficient resource usage.
+        - Developed a robust & offline pantry management system, with exportable KPIs.
     - name: Reinforcement Learning of Street Fighter Training Partners
       tags: MS - Machine Learning II
-      date: January 2023 - May 2023
+      date: Jan 2023 - May 2023
       description: |
-        - Evaluate capability of **Reinforcement Learning** trained AI opponents gated by human physiological limitations.
-        - Agent constrained to naive basic inputs, to organically discovering advanced techniques through exploration.
-        - Reward function considered indirect advantages to strengthen agent's approach. Severely penalty on loss.
-        - **Asynchronous Advantage Actor-Critic** used to optimize resource allocation during training.
-    - name: Zero Shot DNN Behavioral Evaluation
-      tags: MS - Machine Learning I
-      date: September 2022 - December 2022
-      description: |
-        - Constructed and analyzed **Zero Shot CNN** classifier on the **Caltech-UCSD Birds-200-2011** dataset in **PyTorch**.
-        - Initially trained on attribute segmentation data, enabling feature-specific classification of known species.
-        - Fine-tuned additional layers to identify species held outside training set.
-    # - name: Rowan Hydra Robot
-    #   link: 
-    #   tags: NSF Grant
-    #   date: 2023 - 2024
+        - Evaluate capability of **Reinforcement Learning** trained AI restricted with human limitations.
+    # - name: Zero Shot DNN Behavioral Evaluation
+    #   tags: MS - Machine Learning I
+    #   date: Sep 2022 - Dec 2022
     #   description: |
-    #     Containerized rework of **Jetson TX2** + **Orin** robotics platform in **ROS** for research operation
-
+    #     - Analyzed **Zero Shot CNN** classifier on the **Caltech-UCSD Birds** dataset in **PyTorch**.
 
     # Other Projects that we consider less relevant but would love to put into portfolio
     # UROV
@@ -196,101 +158,32 @@ project:
 
 skill:
   show: true
-  order: 7
+  order: 5
   title: Skills
   description:
-  # items:
-  #   - name: Skill A
-  #     level: 5
   groups:
-    - name: Preferred Programming Languages
+    - name: Preferred Languages
       item:
         - Python
         - Go/Golang
         - Rust
         - TypeScript
-    - name: ML & AI
+        - SQL
+        - C
+        - C++
+        - Java
+        - Javascript
+    - name: Technology
       item:
-        - PyTorch
-        - LangChain
+        - Pytorch
         - DSPy
-        # - Agentic & RAG Architectures
-        - OpenAI API
-        - Anthropic API
-        # - OpenRouter
-        # - Transformers/HuggingFace
-        - scikit-learn
-        - MLFlow
-        - SGLang
-        - vLLM
-    - name: Data & Vector Embeddings
-      item:
-        - Pandas
-        - ChromaDB
-        - pgvector
-        - ElasticSearch
-        - PostgreSQL
-        - SQLite
-    - name: Web
-      item:
         - Django
-        - FastAPI
-        - gRPC
-        - Redis
-        - Dragonfly
-        - Dramatiq
-    - name: DevOps & Tooling
-      item:
         - Docker
         - Kubernetes
-        - Nix
-        # - GCP
         - AWS
-        - Github & Gitlab CICD
-    # - name: Embedded & Edge
-    #   item:
-    #     - Nvidia Jetson
-    #     - ROS 1 & 2
-    #     - RP2040
-    #     - RP2350
-    #     - ATtiny85
-    #     - Arduino
-    #     - ESP32
-    #     - PlatformIO
-    # - name: Cross Discipline
-    #   item:
-    #     - Altium
-    #     - KiCAD
-    #     - Solidworks
-    #     - Fusion360
-    #     - Essemtec Fox PNP
-    #     - Rapid Prototyping
-    # - name: Others
-    #   item:
-        # - Node.js
-        # - PyTorch
-        # - Linux
-        # - Docker
-        # - Kubernetes
-        # - MLFlow
-        # - Klipper
-        # - Elasticsearch
-        # - PlatformIO
-        # - Solidworks
-        # - Fusion360
-        # - Altium
-        # - KiCad
-        # - Embedded Devices
-    # - name:
-    #   item:
-    #     - FastAPI
-    #     - Django
-    #     - PostgreSQL
-        # - Git
-        # - OpenCV
-        # - Pandas 
-        # - gRPC
-        # - Whatever it takes
+        - Github/Gitlab CICD
+        - gRPC
+        - React
 
 education:
   show: true
@@ -301,6 +194,7 @@ education:
     - institution: Rowan University
       link: 
       date: 2023
+      location: Glassboro, NJ
       major: Computer Science
       gpa: "**3.94**"
       degree: Master of Science
@@ -310,11 +204,12 @@ education:
     - institution: Rochester Institute of Technology
       link:
       date: 2015
+      location: Rochester, NY
       major: Mechanical Engineering
       gpa:
       degree: Bachelor of Science
-      description: |
-        Co-ops at General Dynamics & iRobot Corporation
+      description: 
+        # Co-ops at General Dynamics & iRobot Corporation
 
 certificate:
   show: false
@@ -332,40 +227,56 @@ certificate:
       date: 2025
       description: Small Unmanned Aircraft; support aerial robotics & autonomous vehicle research.
 
-
 publication:
   show: true
   order: 4
-  title: Publications
+  title: Projects & Publications
   description:
   items:
-    - title: "SplitTracr: A Flexible Performance Evaluation Tool for Cooperative Inference and Split Computing"
+    - title: "SplitTracr: A Flexible Performance Evaluation Tool for [...] Split Computing"
       authors: N Bovee, I Ali, G Patapanchala, S Bitla, SS Ho
       tag: Proceedings
       conference: ICPE
       date: 2025
       doi: 10.1145/3680256.3721971
     #   link: https://ieeexplore.ieee.org/abstract/document/10707214/
-    - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
-      authors: N Bovee, S Bitla, GK Patapanchala, SS Ho
-      tag: Poster
-      conference: ICFEC
-      date: 2024
-      doi: 10.1109/ICFEC61590.2024.00024
-    - title: "Computation Offloading for Precision Agriculture using Cooperative Inference"
-      authors: S Bitla, K Patapanchala, N Bovee, PR Sanchez, SS Ho
-      tag: Poster
-      conference: ICFEC
-      date: 2024
-      doi: 10.1109/ICFEC61590.2024.00023
-      # link: https://ieeexplore.ieee.org/abstract/document/10707172/
-    - title: "Experimental Test-bed for Computation Offloading for Cooperative Inference on Edge Devices"
+    # - title: "SplitTracer: A Cooperative Inference Evaluation Toolkit for Computation Offloading on the Edge"
+    #   authors: N Bovee, S Bitla, GK Patapanchala, SS Ho
+    #   tag: Poster
+    #   conference: ICFEC
+    #   date: 2024
+    #   doi: 10.1109/ICFEC61590.2024.00024
+    # - title: "Computation Offloading for Precision Agriculture using Cooperative Inference"
+    #   authors: S Bitla, K Patapanchala, N Bovee, PR Sanchez, SS Ho
+    #   tag: Poster
+    #   conference: ICFEC
+    #   date: 2024
+    #   doi: 10.1109/ICFEC61590.2024.00023
+    #   link: https://ieeexplore.ieee.org/abstract/document/10707172/
+
+    - title: Course Scheduling RAG Agent
+      link:
+      tags: Personal
+      date: Apr 2025
+      description: |
+        **RAG agent** to aid students in navigation of University services. Vector database & guarded tools for reliability.
+    - title: Rowan Pantry Management System
+      tags: Hunger Free Campus Initiative
+      date: May 2024
+      description: |
+        Developed a robust & offline pantry management system, with exportable KPIs.
+    - title: "Experimental Test-bed for Computation Offloading [...] on Edge Devices"
       authors: N Bovee, S Piccolo, SS Ho, N Wang
       tag: Proceedings
       conference: SEC
       date: 2023
       doi: 10.1145/3583740.3626814
       # link: https://dl.acm.org/doi/abs/10.1145/3583740.3626814
+    - title: Reinforcement Learning of Street Fighter Training Partners
+      tags: MS - Machine Learning II
+      date: May 2023
+      description: |
+        Evaluate capability of **Reinforcement Learning** trained AI restricted with human limitations.
 
 award:
   show: false
