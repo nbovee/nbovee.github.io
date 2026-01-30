@@ -52,7 +52,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Computer Scientist & Mechanical Engineer specializing in AI/ML, robotics, autonomy, and end-to-end systems.
+    Building Edge-to-Cloud Platforms and Applications for AI, Automation, and Robotics
 experience:
   show: true
   order: 3
